@@ -413,10 +413,38 @@ var RomansJames = {
                                 "A person is not a Jew who is one only outwardly, nor is circumcision merely outward and physical. ",
                                 "No, a person is a Jew who is one inwardly; and circumcision is circumcision of the heart, by the Spirit, not by the written code. Such a person’s praise is not from other people, but from God. "
 
+                            ],
+                            pronounClarification: [
+                                
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God",
+                                        reference: "R 2:17"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "Those who are not circumcised and keep the law's requirements"
+                                    }
+                                ],
+                                [],
+                                [],
+                                []
+
                             ]
                         }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Psalm 62:12; Prov. 24:12",
@@ -432,56 +460,170 @@ var RomansJames = {
                             title: "God's Faithfulness",
                             verses: [
 
-                        "What advantage, then, is there in being a Jew, or what value is there in circumcision? ",
-                        "Much in every way! First of all, the Jews have been entrusted with the very words of God. ",
-                        "What if some were unfaithful? Will their unfaithfulness nullify God’s faithfulness? ",
-                        "Not at all! Let God be true, and every human being a liar. As it is written: “So that you may be proved right when you speak and prevail when you judge.”[a]",
-                        "But if our unrighteousness brings out God’s righteousness more clearly, what shall we say? That God is unjust in bringing his wrath on us? (I am using a human argument.) ",
-                        "Certainly not! If that were so, how could God judge the world? ",
-                        "Someone might argue, “If my falsehood enhances God’s truthfulness and so increases his glory, why am I still condemned as a sinner?” ",
-                        "Why not say - as some slanderously claim that we say - “Let us do evil that good may result”? Their condemnation is just!"
+                                "What advantage, then, is there in being a Jew, or what value is there in circumcision? ",
+                                "Much in every way! First of all, the Jews have been entrusted with the very words of God. ",
+                                "What if some were unfaithful? Will their unfaithfulness nullify God’s faithfulness? ",
+                                "Not at all! Let God be true, and every human being a liar. As it is written: “So that you may be proved right when you speak and prevail when you judge.”[a]",
+                                "But if our unrighteousness brings out God’s righteousness more clearly, what shall we say? That God is unjust in bringing his wrath on us? (I am using a human argument.) ",
+                                "Certainly not! If that were so, how could God judge the world? ",
+                                "Someone might argue, “If my falsehood enhances God’s truthfulness and so increases his glory, why am I still condemned as a sinner?” ",
+                                "Why not say - as some slanderously claim that we say - “Let us do evil that good may result”? Their condemnation is just!"
 
-                    ]
-                },
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "Some Jews who were unfaithful"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God",
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "Their",
+                                        antecedent: "Some who slanderously claim that we say “Let us do evil that good may result”"
+                                    }
+                                ]
+
+                            ]
+                        },
                         {
                             title: "No One Is Righteous",
                             verses: [
 
-                        "What shall we conclude then? Do we have any advantage? Not at all! For we have already made the charge that Jews and Gentiles alike are all under the power of sin. ",
-                        "As it is written: “There is no one righteous, not even one; ",
-                        "there is no one who understands; there is no one who seeks God. ",
-                        "All have turned away, they have together become worthless; there is no one who does good, not even one.”[b]",
-                        "“Their throats are open graves; their tongues practice deceit.”[c] “The poison of vipers is on their lips.”[d] ",
-                        "“Their mouths are full of cursing and bitterness.”[e] ",
-                        "“Their feet are swift to shed blood; ",
-                        "ruin and misery mark their ways, ",
-                        "and the way of peace they do not know.”[f] ",
-                        "“There is no fear of God before their eyes.”[g] ",
-                        "Now we know that whatever the law says, it says to those who are under the law, so that every mouth may be silenced and the whole world held accountable to God. ",
-                        "Therefore no one will be declared righteous in God’s sight by the works of the law; rather, through the law we become conscious of our sin. "
+                                "What shall we conclude then? Do we have any advantage? Not at all! For we have already made the charge that Jews and Gentiles alike are all under the power of sin. ",
+                                "As it is written: “There is no one righteous, not even one; ",
+                                "there is no one who understands; there is no one who seeks God. ",
+                                "All have turned away, they have together become worthless; there is no one who does good, not even one.”[b]",
+                                "“Their throats are open graves; their tongues practice deceit.”[c] “The poison of vipers is on their lips.”[d] ",
+                                "“Their mouths are full of cursing and bitterness.”[e] ",
+                                "“Their feet are swift to shed blood; ",
+                                "ruin and misery mark their ways, ",
+                                "and the way of peace they do not know.”[f] ",
+                                "“There is no fear of God before their eyes.”[g] ",
+                                "Now we know that whatever the law says, it says to those who are under the law, so that every mouth may be silenced and the whole world held accountable to God. ",
+                                "Therefore no one will be declared righteous in God’s sight by the works of the law; rather, through the law we become conscious of our sin. "
 
-                    ]
-                },
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "all"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
+
+                            ]
+                        },
                         {
                             title: "Righteousness Through Faith",
                             verses: [
 
-                        "But now apart from the law the righteousness of God has been made known, to which the Law and the Prophets testify. ",
-                        "This righteousness is given through faith in[h] Jesus Christ to all who believe. There is no difference between Jew and Gentile, ",
-                        "for all have sinned and fall short of the glory of God, ",
-                        "and all are justified freely by his grace through the redemption that came by Christ Jesus. ",
-                        "God presented Christ as a sacrifice of atonement,[i] through the shedding of his blood-to be received by faith. He did this to demonstrate his righteousness, because in his forbearance he had left the sins committed beforehand unpunished - ",
-                        "he did it to demonstrate his righteousness at the present time, so as to be just and the one who justifies those who have faith in Jesus. ",
-                        "Where, then, is boasting? It is excluded. Because of what law? The law that requires works? No, because of the law that requires faith. ",
-                        "For we maintain that a person is justified by faith apart from the works of the law. ",
-                        "Or is God the God of Jews only? Is he not the God of Gentiles too? Yes, of Gentiles too, ",
-                        "since there is only one God, who will justify the circumcised by faith and the uncircumcised through that same faith. ",
-                        "Do we, then, nullify the law by this faith? Not at all! Rather, we uphold the law. "
+                                "But now apart from the law the righteousness of God has been made known, to which the Law and the Prophets testify. ",
+                                "This righteousness is given through faith in[h] Jesus Christ to all who believe. There is no difference between Jew and Gentile, ",
+                                "for all have sinned and fall short of the glory of God, ",
+                                "and all are justified freely by his grace through the redemption that came by Christ Jesus. ",
+                                "God presented Christ as a sacrifice of atonement,[i] through the shedding of his blood - to be received by faith. He did this to demonstrate his righteousness, because in his forbearance he had left the sins committed beforehand unpunished - ",
+                                "he did it to demonstrate his righteousness at the present time, so as to be just and the one who justifies those who have faith in Jesus. ",
+                                "Where, then, is boasting? It is excluded. Because of what law? The law that requires works? No, because of the law that requires faith. ",
+                                "For we maintain that a person is justified by faith apart from the works of the law. ",
+                                "Or is God the God of Jews only? Is he not the God of Gentiles too? Yes, of Gentiles too, ",
+                                "since there is only one God, who will justify the circumcised by faith and the uncircumcised through that same faith. ",
+                                "Do we, then, nullify the law by this faith? Not at all! Rather, we uphold the law. "
 
-                    ]
-                }
+                            ],
+                            pronounClarification: [
 
-            ],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God",
+                                        reference: "R 3:23"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Christ",
+                                        occurrence: 1
+                                    },
+                                    {
+                                        pronoun: "He",
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God",
+                                        occurrence: 2
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God",
+                                        occurrence: 3
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    },
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "R 3:25"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God",
+                                        reference: "R 3:25"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [],
+                                []
+
+                            ]
+                        }
+
+                    ],
                     footnotes: {
 
                         a: "Psalm 51:4",
@@ -503,36 +645,201 @@ var RomansJames = {
                             title: "Abraham Justified by Faith",
                             verses: [
 
-                        "What then shall we say that Abraham, our forefather according to the flesh, discovered in this matter? ",
-                        "If, in fact, Abraham was justified by works, he had something to boast about - but not before God. ",
-                        "What does Scripture say? “Abraham believed God, and it was credited to him as righteousness.”[a] ",
-                        "Now to the one who works, wages are not credited as a gift but as an obligation. ",
-                        "However, to the one who does not work but trusts God who justifies the ungodly, their faith is credited as righteousness. ",
-                        "David says the same thing when he speaks of the blessedness of the one to whom God credits righteousness apart from works: ",
-                        "“Blessed are those whose transgressions are forgiven, whose sins are covered. ",
-                        "Blessed is the one whose sin the Lord will never count against them.”[b] ",
-                        "Is this blessedness only for the circumcised, or also for the uncircumcised? We have been saying that Abraham’s faith was credited to him as righteousness. ",
-                        "Under what circumstances was it credited? Was it after he was circumcised, or before? It was not after, but before! ",
-                        "And he received circumcision as a sign, a seal of the righteousness that he had by faith while he was still uncircumcised. So then, he is the father of all who believe but have not been circumcised, in order that righteousness might be credited to them. ",
-                        "And he is then also the father of the circumcised who not only are circumcised but who also follow in the footsteps of the faith that our father Abraham had before he was circumcised. ",
-                        "It was not through the law that Abraham and his offspring received the promise that he would be heir of the world, but through the righteousness that comes by faith. ",
-                        "For if those who depend on the law are heirs, faith means nothing and the promise is worthless, ",
-                        "because the law brings wrath. And where there is no law there is no transgression. ",
-                        "Therefore, the promise comes by faith, so that it may be by grace and may be guaranteed to all Abraham’s offspring - not only to those who are of the law but also to those who have the faith of Abraham. He is the father of us all. ",
-                        "As it is written: “I have made you a father of many nations.”[c] He is our father in the sight of God, in whom he believed - the God who gives life to the dead and calls into being things that were not. ",
-                        "Against all hope, Abraham in hope believed and so became the father of many nations, just as it had been said to him, “So shall your offspring be.”[d] ",
-                        "Without weakening in his faith, he faced the fact that his body was as good as dead - since he was about a hundred years old - and that Sarah’s womb was also dead. ",
-                        "Yet he did not waver through unbelief regarding the promise of God, but was strengthened in his faith and gave glory to God, ",
-                        "being fully persuaded that God had power to do what he had promised. ",
-                        "This is why “it was credited to him as righteousness.” ",
-                        "The words “it was credited to him” were written not for him alone, ",
-                        "but also for us, to whom God will credit righteousness - for us who believe in him who raised Jesus our Lord from the dead. ",
-                        "He was delivered over to death for our sins and was raised to life for our justification. "
+                                "What then shall we say that Abraham, our forefather according to the flesh, discovered in this matter? ",
+                                "If, in fact, Abraham was justified by works, he had something to boast about - but not before God. ",
+                                "What does Scripture say? “Abraham believed God, and it was credited to him as righteousness.”[a] ",
+                                "Now to the one who works, wages are not credited as a gift but as an obligation. ",
+                                "However, to the one who does not work but trusts God who justifies the ungodly, their faith is credited as righteousness. ",
+                                "David says the same thing when he speaks of the blessedness of the one to whom God credits righteousness apart from works: ",
+                                "“Blessed are those whose transgressions are forgiven, whose sins are covered. ",
+                                "Blessed is the one whose sin the Lord will never count against them.”[b] ",
+                                "Is this blessedness only for the circumcised, or also for the uncircumcised? We have been saying that Abraham’s faith was credited to him as righteousness. ",
+                                "Under what circumstances was it credited? Was it after he was circumcised, or before? It was not after, but before! ",
+                                "And he received circumcision as a sign, a seal of the righteousness that he had by faith while he was still uncircumcised. So then, he is the father of all who believe but have not been circumcised, in order that righteousness might be credited to them. ",
+                                "And he is then also the father of the circumcised who not only are circumcised but who also follow in the footsteps of the faith that our father Abraham had before he was circumcised. ",
+                                "It was not through the law that Abraham and his offspring received the promise that he would be heir of the world, but through the righteousness that comes by faith. ",
+                                "For if those who depend on the law are heirs, faith means nothing and the promise is worthless, ",
+                                "because the law brings wrath. And where there is no law there is no transgression. ",
+                                "Therefore, the promise comes by faith, so that it may be by grace and may be guaranteed to all Abraham’s offspring - not only to those who are of the law but also to those who have the faith of Abraham. He is the father of us all. ",
+                                "As it is written: “I have made you a father of many nations.”[c] He is our father in the sight of God, in whom he believed - the God who gives life to the dead and calls into being things that were not. ",
+                                "Against all hope, Abraham in hope believed and so became the father of many nations, just as it had been said to him, “So shall your offspring be.”[d] ",
+                                "Without weakening in his faith, he faced the fact that his body was as good as dead - since he was about a hundred years old - and that Sarah’s womb was also dead. ",
+                                "Yet he did not waver through unbelief regarding the promise of God, but was strengthened in his faith and gave glory to God, ",
+                                "being fully persuaded that God had power to do what he had promised. ",
+                                "This is why “it was credited to him as righteousness.” ",
+                                "The words “it was credited to him” were written not for him alone, ",
+                                "but also for us, to whom God will credit righteousness - for us who believe in him who raised Jesus our Lord from the dead. ",
+                                "He was delivered over to death for our sins and was raised to life for our justification. "
 
-                    ]
-                }
+                            ],
+                            pronounClarification: [
 
-            ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham",
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Abraham",
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "The one who does not work but trusts God who justifies the ungodly"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "David"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "the one"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Abraham"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:9"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:9"
+                                    },
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "all who believe but have not been circumcized"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham",
+                                        occurrence: 1,
+                                        reference: "R 4:9"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "our father Abraham",
+                                        occurrence: 2,
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Abraham",
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham",
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the promise"
+                                    },
+                                    {
+                                        pronoun: "He",
+                                        antecedent: "Abraham"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "He",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:16"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:16"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Abraham"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:18"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:18"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:18"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:18"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:18"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him”",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:18"
+                                    },
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Abraham",
+                                        reference: "R 4:18"
+                                    }
+                                ],
+                                [],
+                                [],
+
+                            ]
+                        }
+
+                    ],
                     footnotes: {
 
                         a: "Gen. 15:6; also in verse 22",
@@ -549,39 +856,39 @@ var RomansJames = {
                             title: "Peace and Hope",
                             verses: [
 
-                        "Therefore, since we have been justified through faith, we[a] have peace with God through our Lord Jesus Christ, ",
-                        "through whom we have gained access by faith into this grace in which we now stand. And we[b] boast in the hope of the glory of God. ",
-                        "Not only so, but we[c] also glory in our sufferings, because we know that suffering produces perseverance; ",
-                        "perseverance, character; and character, hope. ",
-                        "And hope does not put us to shame, because God’s love has been poured out into our hearts through the Holy Spirit, who has been given to us. ",
-                        "You see, at just the right time, when we were still powerless, Christ died for the ungodly. ",
-                        "Very rarely will anyone die for a righteous person, though for a good person someone might possibly dare to die. ",
-                        "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us. ",
-                        "Since we have now been justified by his blood, how much more shall we be saved from God’s wrath through him! ",
-                        "For if, while we were God’s enemies, we were reconciled to him through the death of his Son, how much more, having been reconciled, shall we be saved through his life! ",
-                        "Not only is this so, but we also boast in God through our Lord Jesus Christ, through whom we have now received reconciliation. "
+                                "Therefore, since we have been justified through faith, we[a] have peace with God through our Lord Jesus Christ, ",
+                                "through whom we have gained access by faith into this grace in which we now stand. And we[b] boast in the hope of the glory of God. ",
+                                "Not only so, but we[c] also glory in our sufferings, because we know that suffering produces perseverance; ",
+                                "perseverance, character; and character, hope. ",
+                                "And hope does not put us to shame, because God’s love has been poured out into our hearts through the Holy Spirit, who has been given to us. ",
+                                "You see, at just the right time, when we were still powerless, Christ died for the ungodly. ",
+                                "Very rarely will anyone die for a righteous person, though for a good person someone might possibly dare to die. ",
+                                "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us. ",
+                                "Since we have now been justified by his blood, how much more shall we be saved from God’s wrath through him! ",
+                                "For if, while we were God’s enemies, we were reconciled to him through the death of his Son, how much more, having been reconciled, shall we be saved through his life! ",
+                                "Not only is this so, but we also boast in God through our Lord Jesus Christ, through whom we have now received reconciliation. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Death Through Adam, Life Through Christ",
                             verses: [
 
-                        "Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned - ",
-                        "To be sure, sin was in the world before the law was given, but sin is not charged against anyone’s account where there is no law. ",
-                        "Nevertheless, death reigned from the time of Adam to the time of Moses, even over those who did not sin by breaking a command, as did Adam, who is a pattern of the one to come. ",
-                        "But the gift is not like the trespass. For if the many died by the trespass of the one man, how much more did God’s grace and the gift that came by the grace of the one man, Jesus Christ, overflow to the many! ",
-                        "Nor can the gift of God be compared with the result of one man’s sin: The judgment followed one sin and brought condemnation, but the gift followed many trespasses and brought justification. ",
-                        "For if, by the trespass of the one man, death reigned through that one man, how much more will those who receive God’s abundant provision of grace and of the gift of righteousness reign in life through the one man, Jesus Christ! ",
-                        "Consequently, just as one trespass resulted in condemnation for all people, so also one righteous act resulted in justification and life for all people. ",
-                        "For just as through the disobedience of the one man the many were made sinners, so also through the obedience of the one man the many will be made righteous. ",
-                        "The law was brought in so that the trespass might increase. But where sin increased, grace increased all the more, ",
-                        "so that, just as sin reigned in death, so also grace might reign through righteousness to bring eternal life through Jesus Christ our Lord. ",
+                                "Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned - ",
+                                "To be sure, sin was in the world before the law was given, but sin is not charged against anyone’s account where there is no law. ",
+                                "Nevertheless, death reigned from the time of Adam to the time of Moses, even over those who did not sin by breaking a command, as did Adam, who is a pattern of the one to come. ",
+                                "But the gift is not like the trespass. For if the many died by the trespass of the one man, how much more did God’s grace and the gift that came by the grace of the one man, Jesus Christ, overflow to the many! ",
+                                "Nor can the gift of God be compared with the result of one man’s sin: The judgment followed one sin and brought condemnation, but the gift followed many trespasses and brought justification. ",
+                                "For if, by the trespass of the one man, death reigned through that one man, how much more will those who receive God’s abundant provision of grace and of the gift of righteousness reign in life through the one man, Jesus Christ! ",
+                                "Consequently, just as one trespass resulted in condemnation for all people, so also one righteous act resulted in justification and life for all people. ",
+                                "For just as through the disobedience of the one man the many were made sinners, so also through the obedience of the one man the many will be made righteous. ",
+                                "The law was brought in so that the trespass might increase. But where sin increased, grace increased all the more, ",
+                                "so that, just as sin reigned in death, so also grace might reign through righteousness to bring eternal life through Jesus Christ our Lord. ",
 
-                    ]
-                },
+                            ]
+                        },
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Many manuscripts _let us_",
@@ -597,41 +904,41 @@ var RomansJames = {
                             title: "Dead to Sin, Alive in Christ",
                             verses: [
 
-                        "What shall we say, then? Shall we go on sinning so that grace may increase? ",
-                        "By no means! We are those who have died to sin; how can we live in it any longer? ",
-                        "Or don’t you know that all of us who were baptized into Christ Jesus were baptized into his death? ",
-                        "We were therefore buried with him through baptism into death in order that, just as Christ was raised from the dead through the glory of the Father, we too may live a new life. ",
-                        "For if we have been united with him in a death like his, we will certainly also be united with him in a resurrection like his. ",
-                        "For we know that our old self was crucified with him so that the body ruled by sin might be done away with,[a] that we should no longer be slaves to sin - ",
-                        "because anyone who has died has been set free from sin. ",
-                        "Now if we died with Christ, we believe that we will also live with him. ",
-                        "For we know that since Christ was raised from the dead, he cannot die again; death no longer has mastery over him. ",
-                        "The death he died, he died to sin once for all; but the life he lives, he lives to God. ",
-                        "In the same way, count yourselves dead to sin but alive to God in Christ Jesus. ",
-                        "Therefore do not let sin reign in your mortal body so that you obey its evil desires. ",
-                        "Do not offer any part of yourself to sin as an instrument of wickedness, but rather offer yourselves to God as those who have been brought from death to life; and offer every part of yourself to him as an instrument of righteousness. ",
-                        "For sin shall no longer be your master, because you are not under the law, but under grace. "
+                                "What shall we say, then? Shall we go on sinning so that grace may increase? ",
+                                "By no means! We are those who have died to sin; how can we live in it any longer? ",
+                                "Or don’t you know that all of us who were baptized into Christ Jesus were baptized into his death? ",
+                                "We were therefore buried with him through baptism into death in order that, just as Christ was raised from the dead through the glory of the Father, we too may live a new life. ",
+                                "For if we have been united with him in a death like his, we will certainly also be united with him in a resurrection like his. ",
+                                "For we know that our old self was crucified with him so that the body ruled by sin might be done away with,[a] that we should no longer be slaves to sin - ",
+                                "because anyone who has died has been set free from sin. ",
+                                "Now if we died with Christ, we believe that we will also live with him. ",
+                                "For we know that since Christ was raised from the dead, he cannot die again; death no longer has mastery over him. ",
+                                "The death he died, he died to sin once for all; but the life he lives, he lives to God. ",
+                                "In the same way, count yourselves dead to sin but alive to God in Christ Jesus. ",
+                                "Therefore do not let sin reign in your mortal body so that you obey its evil desires. ",
+                                "Do not offer any part of yourself to sin as an instrument of wickedness, but rather offer yourselves to God as those who have been brought from death to life; and offer every part of yourself to him as an instrument of righteousness. ",
+                                "For sin shall no longer be your master, because you are not under the law, but under grace. "
 
-                    ]
-                },
-                        {
-                            title: "Slaves to Righteousness",
-                            verses: [
+                            ]
+                        },
+                                {
+                                    title: "Slaves to Righteousness",
+                                    verses: [
 
-                        "What then? Shall we sin because we are not under the law but under grace? By no means! ",
-                        "Don’t you know that when you offer yourselves to someone as obedient slaves, you are slaves of the one you obey - whether you are slaves to sin, which leads to death, or to obedience, which leads to righteousness? ",
-                        "But thanks be to God that, though you used to be slaves to sin, you have come to obey from your heart the pattern of teaching that has now claimed your allegiance. ",
-                        "You have been set free from sin and have become slaves to righteousness. ",
-                        "I am using an example from everyday life because of your human limitations. Just as you used to offer yourselves as slaves to impurity and to ever-increasing wickedness, so now offer yourselves as slaves to righteousness leading to holiness. ",
-                        "When you were slaves to sin, you were free from the control of righteousness. ",
-                        "What benefit did you reap at that time from the things you are now ashamed of? Those things result in death! ",
-                        "But now that you have been set free from sin and have become slaves of God, the benefit you reap leads to holiness, and the result is eternal life. ",
-                        "For the wages of sin is death, but the gift of God is eternal life in[b] Christ Jesus our Lord. "
+                                "What then? Shall we sin because we are not under the law but under grace? By no means! ",
+                                "Don’t you know that when you offer yourselves to someone as obedient slaves, you are slaves of the one you obey - whether you are slaves to sin, which leads to death, or to obedience, which leads to righteousness? ",
+                                "But thanks be to God that, though you used to be slaves to sin, you have come to obey from your heart the pattern of teaching that has now claimed your allegiance. ",
+                                "You have been set free from sin and have become slaves to righteousness. ",
+                                "I am using an example from everyday life because of your human limitations. Just as you used to offer yourselves as slaves to impurity and to ever-increasing wickedness, so now offer yourselves as slaves to righteousness leading to holiness. ",
+                                "When you were slaves to sin, you were free from the control of righteousness. ",
+                                "What benefit did you reap at that time from the things you are now ashamed of? Those things result in death! ",
+                                "But now that you have been set free from sin and have become slaves of God, the benefit you reap leads to holiness, and the result is eternal life. ",
+                                "For the wages of sin is death, but the gift of God is eternal life in[b] Christ Jesus our Lord. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Or _be rendered powerless_",
@@ -646,43 +953,43 @@ var RomansJames = {
                             title: "Released From the Law, Bound to Christ",
                             verses: [
 
-                        "Do you not know, brothers and sisters - for I am speaking to those who know the law - that the law has authority over someone only as long as that person lives? ",
-                        "For example, by law a married woman is bound to her husband as long as he is alive, but if her husband dies, she is released from the law that binds her to him. ",
-                        "So then, if she has sexual relations with another man while her husband is still alive, she is called an adulteress. But if her husband dies, she is released from that law and is not an adulteress if she marries another man. ",
-                        "So, my brothers and sisters, you also died to the law through the body of Christ, that you might belong to another, to him who was raised from the dead, in order that we might bear fruit for God. ",
-                        "For when we were in the realm of the flesh,[a] the sinful passions aroused by the law were at work in us, so that we bore fruit for death. ",
-                        "But now, by dying to what once bound us, we have been released from the law so that we serve in the new way of the Spirit, and not in the old way of the written code. "
+                                "Do you not know, brothers and sisters - for I am speaking to those who know the law - that the law has authority over someone only as long as that person lives? ",
+                                "For example, by law a married woman is bound to her husband as long as he is alive, but if her husband dies, she is released from the law that binds her to him. ",
+                                "So then, if she has sexual relations with another man while her husband is still alive, she is called an adulteress. But if her husband dies, she is released from that law and is not an adulteress if she marries another man. ",
+                                "So, my brothers and sisters, you also died to the law through the body of Christ, that you might belong to another, to him who was raised from the dead, in order that we might bear fruit for God. ",
+                                "For when we were in the realm of the flesh,[a] the sinful passions aroused by the law were at work in us, so that we bore fruit for death. ",
+                                "But now, by dying to what once bound us, we have been released from the law so that we serve in the new way of the Spirit, and not in the old way of the written code. "
 
-                    ]
-                },
-                        {
-                            title: "The Law and Sin",
-                            verses: [
+                            ]
+                        },
+                                {
+                                    title: "The Law and Sin",
+                                    verses: [
 
-                        "What shall we say, then? Is the law sinful? Certainly not! Nevertheless, I would not have known what sin was had it not been for the law. For I would not have known what coveting really was if the law had not said, “You shall not covet.”[b] ",
-                        "But sin, seizing the opportunity afforded by the commandment, produced in me every kind of coveting. For apart from the law, sin was dead. ",
-                        "Once I was alive apart from the law; but when the commandment came, sin sprang to life and I died. ",
-                        "I found that the very commandment that was intended to bring life actually brought death. ",
-                        "For sin, seizing the opportunity afforded by the commandment, deceived me, and through the commandment put me to death. ",
-                        "So then, the law is holy, and the commandment is holy, righteous and good. ",
-                        "Did that which is good, then, become death to me? By no means! Nevertheless, in order that sin might be recognized as sin, it used what is good to bring about my death, so that through the commandment sin might become utterly sinful. ",
-                        "We know that the law is spiritual; but I am unspiritual, sold as a slave to sin. ",
-                        "I do not understand what I do. For what I want to do I do not do, but what I hate I do. ",
-                        "And if I do what I do not want to do, I agree that the law is good. ",
-                        "As it is, it is no longer I myself who do it, but it is sin living in me. ",
-                        "For I know that good itself does not dwell in me, that is, in my sinful nature.[c] For I have the desire to do what is good, but I cannot carry it out. ",
-                        "For I do not do the good I want to do, but the evil I do not want to do - this I keep on doing. ",
-                        "Now if I do what I do not want to do, it is no longer I who do it, but it is sin living in me that does it. ",
-                        "So I find this law at work: Although I want to do good, evil is right there with me. ",
-                        "For in my inner being I delight in God’s law; ",
-                        "but I see another law at work in me, waging war against the law of my mind and making me a prisoner of the law of sin at work within me. ",
-                        "What a wretched man I am! Who will rescue me from this body that is subject to death? ",
-                        "Thanks be to God, who delivers me through Jesus Christ our Lord! So then, I myself in my mind am a slave to God’s law, but in my sinful nature[d] a slave to the law of sin."
+                                "What shall we say, then? Is the law sinful? Certainly not! Nevertheless, I would not have known what sin was had it not been for the law. For I would not have known what coveting really was if the law had not said, “You shall not covet.”[b] ",
+                                "But sin, seizing the opportunity afforded by the commandment, produced in me every kind of coveting. For apart from the law, sin was dead. ",
+                                "Once I was alive apart from the law; but when the commandment came, sin sprang to life and I died. ",
+                                "I found that the very commandment that was intended to bring life actually brought death. ",
+                                "For sin, seizing the opportunity afforded by the commandment, deceived me, and through the commandment put me to death. ",
+                                "So then, the law is holy, and the commandment is holy, righteous and good. ",
+                                "Did that which is good, then, become death to me? By no means! Nevertheless, in order that sin might be recognized as sin, it used what is good to bring about my death, so that through the commandment sin might become utterly sinful. ",
+                                "We know that the law is spiritual; but I am unspiritual, sold as a slave to sin. ",
+                                "I do not understand what I do. For what I want to do I do not do, but what I hate I do. ",
+                                "And if I do what I do not want to do, I agree that the law is good. ",
+                                "As it is, it is no longer I myself who do it, but it is sin living in me. ",
+                                "For I know that good itself does not dwell in me, that is, in my sinful nature.[c] For I have the desire to do what is good, but I cannot carry it out. ",
+                                "For I do not do the good I want to do, but the evil I do not want to do - this I keep on doing. ",
+                                "Now if I do what I do not want to do, it is no longer I who do it, but it is sin living in me that does it. ",
+                                "So I find this law at work: Although I want to do good, evil is right there with me. ",
+                                "For in my inner being I delight in God’s law; ",
+                                "but I see another law at work in me, waging war against the law of my mind and making me a prisoner of the law of sin at work within me. ",
+                                "What a wretched man I am! Who will rescue me from this body that is subject to death? ",
+                                "Thanks be to God, who delivers me through Jesus Christ our Lord! So then, I myself in my mind am a slave to God’s law, but in my sinful nature[d] a slave to the law of sin."
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "In contexts like this, the Greek word for _flesh (sarx)_ refers to the sinful state of human beings, often presented as a power in opposition to the Spirit.",
@@ -699,64 +1006,64 @@ var RomansJames = {
                             title: "Life Through the Spirit",
                             verses: [
 
-                        "Therefore, there is now no condemnation for those who are in Christ Jesus, ",
-                        "because through Christ Jesus the law of the Spirit who gives life has set you[a] free from the law of sin and death. ",
-                        "For what the law was powerless to do because it was weakened by the flesh,[b] God did by sending his own Son in the likeness of sinful flesh to be a sin offering.[c] And so he condemned sin in the flesh, ",
-                        "in order that the righteous requirement of the law might be fully met in us, who do not live according to the flesh but according to the Spirit. ",
-                        "Those who live according to the flesh have their minds set on what the flesh desires; but those who live in accordance with the Spirit have their minds set on what the Spirit desires. ",
-                        "The mind governed by the flesh is death, but the mind governed by the Spirit is life and peace. ",
-                        "The mind governed by the flesh is hostile to God; it does not submit to God’s law, nor can it do so. ",
-                        "Those who are in the realm of the flesh cannot please God.",
-                        "You, however, are not in the realm of the flesh but are in the realm of the Spirit, if indeed the Spirit of God lives in you. And if anyone does not have the Spirit of Christ, they do not belong to Christ. ",
-                        "But if Christ is in you, then even though your body is subject to death because of sin, the Spirit gives life[d] because of righteousness. ",
-                        "And if the Spirit of him who raised Jesus from the dead is living in you, he who raised Christ from the dead will also give life to your mortal bodies because of[e] his Spirit who lives in you. ",
-                        "Therefore, brothers and sisters, we have an obligation - but it is not to the flesh, to live according to it. ",
-                        "For if you live according to the flesh, you will die; but if by the Spirit you put to death the misdeeds of the body, you will live. ",
-                        "For those who are led by the Spirit of God are the children of God. ",
-                        "The Spirit you received does not make you slaves, so that you live in fear again; rather, the Spirit you received brought about your adoption to sonship.[f] And by him we cry, “Abba,[g] Father.” ",
-                        "The Spirit himself testifies with our spirit that we are God’s children. ",
-                        "Now if we are children, then we are heirs - heirs of God and co-heirs with Christ, if indeed we share in his sufferings in order that we may also share in his glory."
+                                "Therefore, there is now no condemnation for those who are in Christ Jesus, ",
+                                "because through Christ Jesus the law of the Spirit who gives life has set you[a] free from the law of sin and death. ",
+                                "For what the law was powerless to do because it was weakened by the flesh,[b] God did by sending his own Son in the likeness of sinful flesh to be a sin offering.[c] And so he condemned sin in the flesh, ",
+                                "in order that the righteous requirement of the law might be fully met in us, who do not live according to the flesh but according to the Spirit. ",
+                                "Those who live according to the flesh have their minds set on what the flesh desires; but those who live in accordance with the Spirit have their minds set on what the Spirit desires. ",
+                                "The mind governed by the flesh is death, but the mind governed by the Spirit is life and peace. ",
+                                "The mind governed by the flesh is hostile to God; it does not submit to God’s law, nor can it do so. ",
+                                "Those who are in the realm of the flesh cannot please God.",
+                                "You, however, are not in the realm of the flesh but are in the realm of the Spirit, if indeed the Spirit of God lives in you. And if anyone does not have the Spirit of Christ, they do not belong to Christ. ",
+                                "But if Christ is in you, then even though your body is subject to death because of sin, the Spirit gives life[d] because of righteousness. ",
+                                "And if the Spirit of him who raised Jesus from the dead is living in you, he who raised Christ from the dead will also give life to your mortal bodies because of[e] his Spirit who lives in you. ",
+                                "Therefore, brothers and sisters, we have an obligation - but it is not to the flesh, to live according to it. ",
+                                "For if you live according to the flesh, you will die; but if by the Spirit you put to death the misdeeds of the body, you will live. ",
+                                "For those who are led by the Spirit of God are the children of God. ",
+                                "The Spirit you received does not make you slaves, so that you live in fear again; rather, the Spirit you received brought about your adoption to sonship.[f] And by him we cry, “Abba,[g] Father.” ",
+                                "The Spirit himself testifies with our spirit that we are God’s children. ",
+                                "Now if we are children, then we are heirs - heirs of God and co-heirs with Christ, if indeed we share in his sufferings in order that we may also share in his glory."
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Present Suffering and Future Glory",
                             verses: [
 
-                        "I consider that our present sufferings are not worth comparing with the glory that will be revealed in us. ",
-                        "For the creation waits in eager expectation for the children of God to be revealed. ",
-                        "For the creation was subjected to frustration, not by its own choice, but by the will of the one who subjected it, in hope ",
-                        "that[h] the creation itself will be liberated from its bondage to decay and brought into the freedom and glory of the children of God. ",
-                        "We know that the whole creation has been groaning as in the pains of childbirth right up to the present time. ",
-                        "Not only so, but we ourselves, who have the firstfruits of the Spirit, groan inwardly as we wait eagerly for our adoption to sonship, the redemption of our bodies. ",
-                        "For in this hope we were saved. But hope that is seen is no hope at all. Who hopes for what they already have? ",
-                        "But if we hope for what we do not yet have, we wait for it patiently. ",
-                        "In the same way, the Spirit helps us in our weakness. We do not know what we ought to pray for, but the Spirit himself intercedes for us through wordless groans. ",
-                        "And he who searches our hearts knows the mind of the Spirit, because the Spirit intercedes for God’s people in accordance with the will of God.",
-                        "And we know that in all things God works for the good of those who love him, who[i] have been called according to his purpose. ",
-                        "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. ",
-                        "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified.",
+                                "I consider that our present sufferings are not worth comparing with the glory that will be revealed in us. ",
+                                "For the creation waits in eager expectation for the children of God to be revealed. ",
+                                "For the creation was subjected to frustration, not by its own choice, but by the will of the one who subjected it, in hope ",
+                                "that[h] the creation itself will be liberated from its bondage to decay and brought into the freedom and glory of the children of God. ",
+                                "We know that the whole creation has been groaning as in the pains of childbirth right up to the present time. ",
+                                "Not only so, but we ourselves, who have the firstfruits of the Spirit, groan inwardly as we wait eagerly for our adoption to sonship, the redemption of our bodies. ",
+                                "For in this hope we were saved. But hope that is seen is no hope at all. Who hopes for what they already have? ",
+                                "But if we hope for what we do not yet have, we wait for it patiently. ",
+                                "In the same way, the Spirit helps us in our weakness. We do not know what we ought to pray for, but the Spirit himself intercedes for us through wordless groans. ",
+                                "And he who searches our hearts knows the mind of the Spirit, because the Spirit intercedes for God’s people in accordance with the will of God.",
+                                "And we know that in all things God works for the good of those who love him, who[i] have been called according to his purpose. ",
+                                "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. ",
+                                "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified.",
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "More Than Conquerors",
                             verses: [
 
-                        "What, then, shall we say in response to these things? If God is for us, who can be against us? ",
-                        "He who did not spare his own Son, but gave him up for us all - how will he not also, along with him, graciously give us all things? ",
-                        "Who will bring any charge against those whom God has chosen? It is God who justifies. ",
-                        "Who then is the one who condemns? No one. Christ Jesus who died - more than that, who was raised to life - is at the right hand of God and is also interceding for us. ",
-                        "Who shall separate us from the love of Christ? Shall trouble or hardship or persecution or famine or nakedness or danger or sword? ",
-                        "As it is written: “For your sake we face death all day long; we are considered as sheep to be slaughtered.”[j] ",
-                        "No, in all these things we are more than conquerors through him who loved us. ",
-                        "For I am convinced that neither death nor life, neither angels nor demons,[k] neither the present nor the future, nor any powers, ",
-                        "neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord. "
+                                "What, then, shall we say in response to these things? If God is for us, who can be against us? ",
+                                "He who did not spare his own Son, but gave him up for us all - how will he not also, along with him, graciously give us all things? ",
+                                "Who will bring any charge against those whom God has chosen? It is God who justifies. ",
+                                "Who then is the one who condemns? No one. Christ Jesus who died - more than that, who was raised to life - is at the right hand of God and is also interceding for us. ",
+                                "Who shall separate us from the love of Christ? Shall trouble or hardship or persecution or famine or nakedness or danger or sword? ",
+                                "As it is written: “For your sake we face death all day long; we are considered as sheep to be slaughtered.”[j] ",
+                                "No, in all these things we are more than conquerors through him who loved us. ",
+                                "For I am convinced that neither death nor life, neither angels nor demons,[k] neither the present nor the future, nor any powers, ",
+                                "neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "The Greek is singular; some manuscripts _me_",
@@ -907,68 +1214,68 @@ var RomansJames = {
                             title: "The Remnant of Israel",
                             verses: [
 
-                        "I ask then: Did God reject his people? By no means! I am an Israelite myself, a descendant of Abraham, from the tribe of Benjamin. ",
-                        "God did not reject his people, whom he foreknew. Don’t you know what Scripture says in the passage about Elijah - how he appealed to God against Israel: ",
-                        "“Lord, they have killed your prophets and torn down your altars; I am the only one left, and they are trying to kill me”[a]? ",
-                        "And what was God’s answer to him? “I have reserved for myself seven thousand who have not bowed the knee to Baal.”[b] ",
-                        "So too, at the present time there is a remnant chosen by grace. ",
-                        "And if by grace, then it cannot be based on works; if it were, grace would no longer be grace. ",
-                        "What then? What the people of Israel sought so earnestly they did not obtain. The elect among them did, but the others were hardened, ",
-                        "as it is written: “God gave them a spirit of stupor, eyes that could not see and ears that could not hear, to this very day.”[c] ",
-                        "And David says: “May their table become a snare and a trap, a stumbling block and a retribution for them. ",
-                        "May their eyes be darkened so they cannot see, and their backs be bent forever.”[d] "
+                                "I ask then: Did God reject his people? By no means! I am an Israelite myself, a descendant of Abraham, from the tribe of Benjamin. ",
+                                "God did not reject his people, whom he foreknew. Don’t you know what Scripture says in the passage about Elijah - how he appealed to God against Israel: ",
+                                "“Lord, they have killed your prophets and torn down your altars; I am the only one left, and they are trying to kill me”[a]? ",
+                                "And what was God’s answer to him? “I have reserved for myself seven thousand who have not bowed the knee to Baal.”[b] ",
+                                "So too, at the present time there is a remnant chosen by grace. ",
+                                "And if by grace, then it cannot be based on works; if it were, grace would no longer be grace. ",
+                                "What then? What the people of Israel sought so earnestly they did not obtain. The elect among them did, but the others were hardened, ",
+                                "as it is written: “God gave them a spirit of stupor, eyes that could not see and ears that could not hear, to this very day.”[c] ",
+                                "And David says: “May their table become a snare and a trap, a stumbling block and a retribution for them. ",
+                                "May their eyes be darkened so they cannot see, and their backs be bent forever.”[d] "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Ingrafted Branches",
                             verses: [
 
-                        "Again I ask: Did they stumble so as to fall beyond recovery? Not at all! Rather, because of their transgression, salvation has come to the Gentiles to make Israel envious. ",
-                        "But if their transgression means riches for the world, and their loss means riches for the Gentiles, how much greater riches will their full inclusion bring!",
-                        "I am talking to you Gentiles. Inasmuch as I am the apostle to the Gentiles, I take pride in my ministry ",
-                        "in the hope that I may somehow arouse my own people to envy and save some of them. ",
-                        "For if their rejection brought reconciliation to the world, what will their acceptance be but life from the dead? ",
-                        "If the part of the dough offered as firstfruits is holy, then the whole batch is holy; if the root is holy, so are the branches. ",
-                        "If some of the branches have been broken off, and you, though a wild olive shoot, have been grafted in among the others and now share in the nourishing sap from the olive root, ",
-                        "do not consider yourself to be superior to those other branches. If you do, consider this: You do not support the root, but the root supports you. ",
-                        "You will say then, “Branches were broken off so that I could be grafted in.” ",
-                        "Granted. But they were broken off because of unbelief, and you stand by faith. Do not be arrogant, but tremble. ",
-                        "For if God did not spare the natural branches, he will not spare you either. ",
-                        "Consider therefore the kindness and sternness of God: sternness to those who fell, but kindness to you, provided that you continue in his kindness. Otherwise, you also will be cut off. ",
-                        "And if they do not persist in unbelief, they will be grafted in, for God is able to graft them in again. ",
-                        "After all, if you were cut out of an olive tree that is wild by nature, and contrary to nature were grafted into a cultivated olive tree, how much more readily will these, the natural branches, be grafted into their own olive tree! ",
+                                "Again I ask: Did they stumble so as to fall beyond recovery? Not at all! Rather, because of their transgression, salvation has come to the Gentiles to make Israel envious. ",
+                                "But if their transgression means riches for the world, and their loss means riches for the Gentiles, how much greater riches will their full inclusion bring!",
+                                "I am talking to you Gentiles. Inasmuch as I am the apostle to the Gentiles, I take pride in my ministry ",
+                                "in the hope that I may somehow arouse my own people to envy and save some of them. ",
+                                "For if their rejection brought reconciliation to the world, what will their acceptance be but life from the dead? ",
+                                "If the part of the dough offered as firstfruits is holy, then the whole batch is holy; if the root is holy, so are the branches. ",
+                                "If some of the branches have been broken off, and you, though a wild olive shoot, have been grafted in among the others and now share in the nourishing sap from the olive root, ",
+                                "do not consider yourself to be superior to those other branches. If you do, consider this: You do not support the root, but the root supports you. ",
+                                "You will say then, “Branches were broken off so that I could be grafted in.” ",
+                                "Granted. But they were broken off because of unbelief, and you stand by faith. Do not be arrogant, but tremble. ",
+                                "For if God did not spare the natural branches, he will not spare you either. ",
+                                "Consider therefore the kindness and sternness of God: sternness to those who fell, but kindness to you, provided that you continue in his kindness. Otherwise, you also will be cut off. ",
+                                "And if they do not persist in unbelief, they will be grafted in, for God is able to graft them in again. ",
+                                "After all, if you were cut out of an olive tree that is wild by nature, and contrary to nature were grafted into a cultivated olive tree, how much more readily will these, the natural branches, be grafted into their own olive tree! ",
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "All Israel Will Be Saved",
                             verses: [
 
-                        "I do not want you to be ignorant of this mystery, brothers and sisters, so that you may not be conceited: Israel has experienced a hardening in part until the full number of the Gentiles has come in, ",
-                        "and in this way[e] all Israel will be saved. As it is written: “The deliverer will come from Zion; he will turn godlessness away from Jacob. ",
-                        "And this is[f] my covenant with them when I take away their sins.”[g]",
-                        "As far as the gospel is concerned, they are enemies for your sake; but as far as election is concerned, they are loved on account of the patriarchs, ",
-                        "for God’s gifts and his call are irrevocable. ",
-                        "Just as you who were at one time disobedient to God have now received mercy as a result of their disobedience, ",
-                        "so they too have now become disobedient in order that they too may now[h] receive mercy as a result of God’s mercy to you. ",
-                        "For God has bound everyone over to disobedience so that he may have mercy on them all. "
+                                "I do not want you to be ignorant of this mystery, brothers and sisters, so that you may not be conceited: Israel has experienced a hardening in part until the full number of the Gentiles has come in, ",
+                                "and in this way[e] all Israel will be saved. As it is written: “The deliverer will come from Zion; he will turn godlessness away from Jacob. ",
+                                "And this is[f] my covenant with them when I take away their sins.”[g]",
+                                "As far as the gospel is concerned, they are enemies for your sake; but as far as election is concerned, they are loved on account of the patriarchs, ",
+                                "for God’s gifts and his call are irrevocable. ",
+                                "Just as you who were at one time disobedient to God have now received mercy as a result of their disobedience, ",
+                                "so they too have now become disobedient in order that they too may now[h] receive mercy as a result of God’s mercy to you. ",
+                                "For God has bound everyone over to disobedience so that he may have mercy on them all. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Doxology",
                             verses: [
 
-                        "Oh, the depth of the riches of the wisdom and[i] knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! ",
-                        "“Who has known the mind of the Lord? Or who has been his counselor?”[j] ",
-                        "“Who has ever given to God, that God should repay them?”[k] ",
-                        "For from him and through him and for him are all things. To him be the glory forever! Amen. ",
+                                "Oh, the depth of the riches of the wisdom and[i] knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! ",
+                                "“Who has known the mind of the Lord? Or who has been his counselor?”[j] ",
+                                "“Who has ever given to God, that God should repay them?”[k] ",
+                                "For from him and through him and for him are all things. To him be the glory forever! Amen. ",
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "1 Kings 19:10,14",
@@ -992,46 +1299,46 @@ var RomansJames = {
                             title: "A Living Sacrifice",
                             verses: [
 
-                        "Therefore, I urge you, brothers and sisters, in view of God’s mercy, to offer your bodies as a living sacrifice, holy and pleasing to God - this is your true and proper worship. ",
-                        "Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is - his good, pleasing and perfect will. "
+                                "Therefore, I urge you, brothers and sisters, in view of God’s mercy, to offer your bodies as a living sacrifice, holy and pleasing to God - this is your true and proper worship. ",
+                                "Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is - his good, pleasing and perfect will. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Humble Service in the Body of Christ",
                             verses: [
 
-                        "For by the grace given me I say to every one of you: Do not think of yourself more highly than you ought, but rather think of yourself with sober judgment, in accordance with the faith God has distributed to each of you. ",
-                        "For just as each of us has one body with many members, and these members do not all have the same function, ",
-                        "so in Christ we, though many, form one body, and each member belongs to all the others. ",
-                        "We have different gifts, according to the grace given to each of us. If your gift is prophesying, then prophesy in accordance with your[a] faith; ",
-                        "if it is serving, then serve; if it is teaching, then teach; ",
-                        "if it is to encourage, then give encouragement; if it is giving, then give generously; if it is to lead,[b] do it diligently; if it is to show mercy, do it cheerfully. "
+                                "For by the grace given me I say to every one of you: Do not think of yourself more highly than you ought, but rather think of yourself with sober judgment, in accordance with the faith God has distributed to each of you. ",
+                                "For just as each of us has one body with many members, and these members do not all have the same function, ",
+                                "so in Christ we, though many, form one body, and each member belongs to all the others. ",
+                                "We have different gifts, according to the grace given to each of us. If your gift is prophesying, then prophesy in accordance with your[a] faith; ",
+                                "if it is serving, then serve; if it is teaching, then teach; ",
+                                "if it is to encourage, then give encouragement; if it is giving, then give generously; if it is to lead,[b] do it diligently; if it is to show mercy, do it cheerfully. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Love in Action",
                             verses: [
 
-                        "Love must be sincere. Hate what is evil; cling to what is good. ",
-                        "Be devoted to one another in love. Honor one another above yourselves. ",
-                        "Never be lacking in zeal, but keep your spiritual fervor, serving the Lord. ",
-                        "Be joyful in hope, patient in affliction, faithful in prayer. ",
-                        "Share with the Lord’s people who are in need. Practice hospitality. ",
-                        "Bless those who persecute you; bless and do not curse. ",
-                        "Rejoice with those who rejoice; mourn with those who mourn. ",
-                        "Live in harmony with one another. Do not be proud, but be willing to associate with people of low position.[c] Do not be conceited. ",
-                        "Do not repay anyone evil for evil. Be careful to do what is right in the eyes of everyone. ",
-                        "If it is possible, as far as it depends on you, live at peace with everyone. ",
-                        "Do not take revenge, my dear friends, but leave room for God’s wrath, for it is written: “It is mine to avenge; I will repay,”[d] says the Lord. ",
-                        "On the contrary: “If your enemy is hungry, feed him; if he is thirsty, give him something to drink. In doing this, you will heap burning coals on his head.”[e] ",
-                        "Do not be overcome by evil, but overcome evil with good. "
+                                "Love must be sincere. Hate what is evil; cling to what is good. ",
+                                "Be devoted to one another in love. Honor one another above yourselves. ",
+                                "Never be lacking in zeal, but keep your spiritual fervor, serving the Lord. ",
+                                "Be joyful in hope, patient in affliction, faithful in prayer. ",
+                                "Share with the Lord’s people who are in need. Practice hospitality. ",
+                                "Bless those who persecute you; bless and do not curse. ",
+                                "Rejoice with those who rejoice; mourn with those who mourn. ",
+                                "Live in harmony with one another. Do not be proud, but be willing to associate with people of low position.[c] Do not be conceited. ",
+                                "Do not repay anyone evil for evil. Be careful to do what is right in the eyes of everyone. ",
+                                "If it is possible, as far as it depends on you, live at peace with everyone. ",
+                                "Do not take revenge, my dear friends, but leave room for God’s wrath, for it is written: “It is mine to avenge; I will repay,”[d] says the Lord. ",
+                                "On the contrary: “If your enemy is hungry, feed him; if he is thirsty, give him something to drink. In doing this, you will heap burning coals on his head.”[e] ",
+                                "Do not be overcome by evil, but overcome evil with good. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Or _the_",
@@ -1049,39 +1356,39 @@ var RomansJames = {
                             title: "Submission to Governing Authorities",
                             verses: [
 
-                        "Let everyone be subject to the governing authorities, for there is no authority except that which God has established. The authorities that exist have been established by God. ",
-                        "Consequently, whoever rebels against the authority is rebelling against what God has instituted, and those who do so will bring judgment on themselves. ",
-                        "For rulers hold no terror for those who do right, but for those who do wrong. Do you want to be free from fear of the one in authority? Then do what is right and you will be commended. ",
-                        "For the one in authority is God’s servant for your good. But if you do wrong, be afraid, for rulers do not bear the sword for no reason. They are God’s servants, agents of wrath to bring punishment on the wrongdoer. ",
-                        "Therefore, it is necessary to submit to the authorities, not only because of possible punishment but also as a matter of conscience. ",
-                        "This is also why you pay taxes, for the authorities are God’s servants, who give their full time to governing. ",
-                        "Give to everyone what you owe them: If you owe taxes, pay taxes; if revenue, then revenue; if respect, then respect; if honor, then honor. "
+                                "Let everyone be subject to the governing authorities, for there is no authority except that which God has established. The authorities that exist have been established by God. ",
+                                "Consequently, whoever rebels against the authority is rebelling against what God has instituted, and those who do so will bring judgment on themselves. ",
+                                "For rulers hold no terror for those who do right, but for those who do wrong. Do you want to be free from fear of the one in authority? Then do what is right and you will be commended. ",
+                                "For the one in authority is God’s servant for your good. But if you do wrong, be afraid, for rulers do not bear the sword for no reason. They are God’s servants, agents of wrath to bring punishment on the wrongdoer. ",
+                                "Therefore, it is necessary to submit to the authorities, not only because of possible punishment but also as a matter of conscience. ",
+                                "This is also why you pay taxes, for the authorities are God’s servants, who give their full time to governing. ",
+                                "Give to everyone what you owe them: If you owe taxes, pay taxes; if revenue, then revenue; if respect, then respect; if honor, then honor. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Love Fulfills the Law",
                             verses: [
 
-                        "Let no debt remain outstanding, except the continuing debt to love one another, for whoever loves others has fulfilled the law. ",
-                        "The commandments, “You shall not commit adultery,” “You shall not murder,” “You shall not steal,” “You shall not covet,”[a] and whatever other command there may be, are summed up in this one command: “Love your neighbor as yourself.”[b] ",
-                        "Love does no harm to a neighbor. Therefore love is the fulfillment of the law. "
+                                "Let no debt remain outstanding, except the continuing debt to love one another, for whoever loves others has fulfilled the law. ",
+                                "The commandments, “You shall not commit adultery,” “You shall not murder,” “You shall not steal,” “You shall not covet,”[a] and whatever other command there may be, are summed up in this one command: “Love your neighbor as yourself.”[b] ",
+                                "Love does no harm to a neighbor. Therefore love is the fulfillment of the law. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "The Day Is Near",
                             verses: [
 
-                        "And do this, understanding the present time: The hour has already come for you to wake up from your slumber, because our salvation is nearer now than when we first believed. ",
-                        "The night is nearly over; the day is almost here. So let us put aside the deeds of darkness and put on the armor of light. ",
-                        "Let us behave decently, as in the daytime, not in carousing and drunkenness, not in sexual immorality and debauchery, not in dissension and jealousy. ",
-                        "Rather, clothe yourselves with the Lord Jesus Christ, and do not think about how to gratify the desires of the flesh.[c]"
+                                "And do this, understanding the present time: The hour has already come for you to wake up from your slumber, because our salvation is nearer now than when we first believed. ",
+                                "The night is nearly over; the day is almost here. So let us put aside the deeds of darkness and put on the armor of light. ",
+                                "Let us behave decently, as in the daytime, not in carousing and drunkenness, not in sexual immorality and debauchery, not in dissension and jealousy. ",
+                                "Rather, clothe yourselves with the Lord Jesus Christ, and do not think about how to gratify the desires of the flesh.[c]"
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Exodus 20:13-15,17; Deut. 5:17-19,21",
@@ -1097,34 +1404,34 @@ var RomansJames = {
                             title: "The Weak and the Strong",
                             verses: [
 
-                        "Accept the one whose faith is weak, without quarreling over disputable matters. ",
-                        "One person’s faith allows them to eat anything, but another, whose faith is weak, eats only vegetables. ",
-                        "The one who eats everything must not treat with contempt the one who does not, and the one who does not eat everything must not judge the one who does, for God has accepted them. ",
-                        "Who are you to judge someone else’s servant? To their own master, servants stand or fall. And they will stand, for the Lord is able to make them stand. ",
-                        "One person considers one day more sacred than another; another considers every day alike. Each of them should be fully convinced in their own mind. ",
-                        "Whoever regards one day as special does so to the Lord. Whoever eats meat does so to the Lord, for they give thanks to God; and whoever abstains does so to the Lord and gives thanks to God. ",
-                        "For none of us lives for ourselves alone, and none of us dies for ourselves alone. ",
-                        "If we live, we live for the Lord; and if we die, we die for the Lord. So, whether we live or die, we belong to the Lord. ",
-                        "For this very reason, Christ died and returned to life so that he might be the Lord of both the dead and the living. ",
-                        "You, then, why do you judge your brother or sister[a]? Or why do you treat them with contempt? For we will all stand before God’s judgment seat. ",
-                        "It is written: “‘As surely as I live,’ says the Lord, ‘every knee will bow before me; every tongue will acknowledge God.’”[b] ",
-                        "So then, each of us will give an account of ourselves to God. ",
-                        "Therefore let us stop passing judgment on one another. Instead, make up your mind not to put any stumbling block or obstacle in the way of a brother or sister. ",
-                        "I am convinced, being fully persuaded in the Lord Jesus, that nothing is unclean in itself. But if anyone regards something as unclean, then for that person it is unclean. ",
-                        "If your brother or sister is distressed because of what you eat, you are no longer acting in love. Do not by your eating destroy someone for whom Christ died. ",
-                        "Therefore do not let what you know is good be spoken of as evil. ",
-                        "For the kingdom of God is not a matter of eating and drinking, but of righteousness, peace and joy in the Holy Spirit, ",
-                        "because anyone who serves Christ in this way is pleasing to God and receives human approval. ",
-                        "Let us therefore make every effort to do what leads to peace and to mutual edification. ",
-                        "Do not destroy the work of God for the sake of food. All food is clean, but it is wrong for a person to eat anything that causes someone else to stumble. ",
-                        "It is better not to eat meat or drink wine or to do anything else that will cause your brother or sister to fall. ",
-                        "So whatever you believe about these things keep between yourself and God. Blessed is the one who does not condemn himself by what he approves. ",
-                        "But whoever has doubts is condemned if they eat, because their eating is not from faith; and everything that does not come from faith is sin.[c] ",
+                                "Accept the one whose faith is weak, without quarreling over disputable matters. ",
+                                "One person’s faith allows them to eat anything, but another, whose faith is weak, eats only vegetables. ",
+                                "The one who eats everything must not treat with contempt the one who does not, and the one who does not eat everything must not judge the one who does, for God has accepted them. ",
+                                "Who are you to judge someone else’s servant? To their own master, servants stand or fall. And they will stand, for the Lord is able to make them stand. ",
+                                "One person considers one day more sacred than another; another considers every day alike. Each of them should be fully convinced in their own mind. ",
+                                "Whoever regards one day as special does so to the Lord. Whoever eats meat does so to the Lord, for they give thanks to God; and whoever abstains does so to the Lord and gives thanks to God. ",
+                                "For none of us lives for ourselves alone, and none of us dies for ourselves alone. ",
+                                "If we live, we live for the Lord; and if we die, we die for the Lord. So, whether we live or die, we belong to the Lord. ",
+                                "For this very reason, Christ died and returned to life so that he might be the Lord of both the dead and the living. ",
+                                "You, then, why do you judge your brother or sister[a]? Or why do you treat them with contempt? For we will all stand before God’s judgment seat. ",
+                                "It is written: “‘As surely as I live,’ says the Lord, ‘every knee will bow before me; every tongue will acknowledge God.’”[b] ",
+                                "So then, each of us will give an account of ourselves to God. ",
+                                "Therefore let us stop passing judgment on one another. Instead, make up your mind not to put any stumbling block or obstacle in the way of a brother or sister. ",
+                                "I am convinced, being fully persuaded in the Lord Jesus, that nothing is unclean in itself. But if anyone regards something as unclean, then for that person it is unclean. ",
+                                "If your brother or sister is distressed because of what you eat, you are no longer acting in love. Do not by your eating destroy someone for whom Christ died. ",
+                                "Therefore do not let what you know is good be spoken of as evil. ",
+                                "For the kingdom of God is not a matter of eating and drinking, but of righteousness, peace and joy in the Holy Spirit, ",
+                                "because anyone who serves Christ in this way is pleasing to God and receives human approval. ",
+                                "Let us therefore make every effort to do what leads to peace and to mutual edification. ",
+                                "Do not destroy the work of God for the sake of food. All food is clean, but it is wrong for a person to eat anything that causes someone else to stumble. ",
+                                "It is better not to eat meat or drink wine or to do anything else that will cause your brother or sister to fall. ",
+                                "So whatever you believe about these things keep between yourself and God. Blessed is the one who does not condemn himself by what he approves. ",
+                                "But whoever has doubts is condemned if they eat, because their eating is not from faith; and everything that does not come from faith is sin.[c] ",
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "The Greek word for _brother or sister (adelphos)_ refers here to a believer, whether man or woman, as part of God’s family; also in verses 13, 15 and 21.",
@@ -1140,58 +1447,58 @@ var RomansJames = {
                             title: "The Weak and the Strong (Continued)",
                             verses: [
 
-                        "We who are strong ought to bear with the failings of the weak and not to please ourselves. ",
-                        "Each of us should please our neighbors for their good, to build them up. ",
-                        "For even Christ did not please himself but, as it is written: “The insults of those who insult you have fallen on me.”[a] ",
-                        "For everything that was written in the past was written to teach us, so that through the endurance taught in the Scriptures and the encouragement they provide we might have hope. ",
-                        "May the God who gives endurance and encouragement give you the same attitude of mind toward each other that Christ Jesus had, ",
-                        "so that with one mind and one voice you may glorify the God and Father of our Lord Jesus Christ. ",
-                        "Accept one another, then, just as Christ accepted you, in order to bring praise to God. ",
-                        "For I tell you that Christ has become a servant of the Jews[b] on behalf of God’s truth, so that the promises made to the patriarchs might be confirmed ",
-                        "and, moreover, that the Gentiles might glorify God for his mercy. As it is written: “Therefore I will praise you among the Gentiles; I will sing the praises of your name.”[c] ",
-                        "Again, it says, “Rejoice, you Gentiles, with his people.”[d] ",
-                        "And again, “Praise the Lord, all you Gentiles; let all the peoples extol him.”[e] ",
-                        "And again, Isaiah says, “The Root of Jesse will spring up, one who will arise to rule over the nations; in him the Gentiles will hope.”[f] ",
-                        "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit. "
+                                "We who are strong ought to bear with the failings of the weak and not to please ourselves. ",
+                                "Each of us should please our neighbors for their good, to build them up. ",
+                                "For even Christ did not please himself but, as it is written: “The insults of those who insult you have fallen on me.”[a] ",
+                                "For everything that was written in the past was written to teach us, so that through the endurance taught in the Scriptures and the encouragement they provide we might have hope. ",
+                                "May the God who gives endurance and encouragement give you the same attitude of mind toward each other that Christ Jesus had, ",
+                                "so that with one mind and one voice you may glorify the God and Father of our Lord Jesus Christ. ",
+                                "Accept one another, then, just as Christ accepted you, in order to bring praise to God. ",
+                                "For I tell you that Christ has become a servant of the Jews[b] on behalf of God’s truth, so that the promises made to the patriarchs might be confirmed ",
+                                "and, moreover, that the Gentiles might glorify God for his mercy. As it is written: “Therefore I will praise you among the Gentiles; I will sing the praises of your name.”[c] ",
+                                "Again, it says, “Rejoice, you Gentiles, with his people.”[d] ",
+                                "And again, “Praise the Lord, all you Gentiles; let all the peoples extol him.”[e] ",
+                                "And again, Isaiah says, “The Root of Jesse will spring up, one who will arise to rule over the nations; in him the Gentiles will hope.”[f] ",
+                                "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Paul the Minister to the Gentiles",
                             verses: [
 
-                        "I myself am convinced, my brothers and sisters, that you yourselves are full of goodness, filled with knowledge and competent to instruct one another. ",
-                        "Yet I have written you quite boldly on some points to remind you of them again, because of the grace God gave me ",
-                        "to be a minister of Christ Jesus to the Gentiles. He gave me the priestly duty of proclaiming the gospel of God, so that the Gentiles might become an offering acceptable to God, sanctified by the Holy Spirit. ",
-                        "Therefore I glory in Christ Jesus in my service to God. ",
-                        "I will not venture to speak of anything except what Christ has accomplished through me in leading the Gentiles to obey God by what I have said and done - ",
-                        "by the power of signs and wonders, through the power of the Spirit of God. So from Jerusalem all the way around to Illyricum, I have fully proclaimed the gospel of Christ. ",
-                        "It has always been my ambition to preach the gospel where Christ was not known, so that I would not be building on someone else’s foundation. ",
-                        "Rather, as it is written: “Those who were not told about him will see, and those who have not heard will understand.”[g] ",
-                        "This is why I have often been hindered from coming to you. "
+                                "I myself am convinced, my brothers and sisters, that you yourselves are full of goodness, filled with knowledge and competent to instruct one another. ",
+                                "Yet I have written you quite boldly on some points to remind you of them again, because of the grace God gave me ",
+                                "to be a minister of Christ Jesus to the Gentiles. He gave me the priestly duty of proclaiming the gospel of God, so that the Gentiles might become an offering acceptable to God, sanctified by the Holy Spirit. ",
+                                "Therefore I glory in Christ Jesus in my service to God. ",
+                                "I will not venture to speak of anything except what Christ has accomplished through me in leading the Gentiles to obey God by what I have said and done - ",
+                                "by the power of signs and wonders, through the power of the Spirit of God. So from Jerusalem all the way around to Illyricum, I have fully proclaimed the gospel of Christ. ",
+                                "It has always been my ambition to preach the gospel where Christ was not known, so that I would not be building on someone else’s foundation. ",
+                                "Rather, as it is written: “Those who were not told about him will see, and those who have not heard will understand.”[g] ",
+                                "This is why I have often been hindered from coming to you. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Paul's Plan to Visit Rome",
                             verses: [
 
-                        "But now that there is no more place for me to work in these regions, and since I have been longing for many years to visit you, ",
-                        "I plan to do so when I go to Spain. I hope to see you while passing through and to have you assist me on my journey there, after I have enjoyed your company for a while. ",
-                        "Now, however, I am on my way to Jerusalem in the service of the Lord’s people there. ",
-                        "For Macedonia and Achaia were pleased to make a contribution for the poor among the Lord’s people in Jerusalem. ",
-                        "They were pleased to do it, and indeed they owe it to them. For if the Gentiles have shared in the Jews’ spiritual blessings, they owe it to the Jews to share with them their material blessings. ",
-                        "So after I have completed this task and have made sure that they have received this contribution, I will go to Spain and visit you on the way. ",
-                        "I know that when I come to you, I will come in the full measure of the blessing of Christ. ",
-                        "I urge you, brothers and sisters, by our Lord Jesus Christ and by the love of the Spirit, to join me in my struggle by praying to God for me. ",
-                        "Pray that I may be kept safe from the unbelievers in Judea and that the contribution I take to Jerusalem may be favorably received by the Lord’s people there, ",
-                        "so that I may come to you with joy, by God’s will, and in your company be refreshed. ",
-                        "The God of peace be with you all. Amen. "
+                                "But now that there is no more place for me to work in these regions, and since I have been longing for many years to visit you, ",
+                                "I plan to do so when I go to Spain. I hope to see you while passing through and to have you assist me on my journey there, after I have enjoyed your company for a while. ",
+                                "Now, however, I am on my way to Jerusalem in the service of the Lord’s people there. ",
+                                "For Macedonia and Achaia were pleased to make a contribution for the poor among the Lord’s people in Jerusalem. ",
+                                "They were pleased to do it, and indeed they owe it to them. For if the Gentiles have shared in the Jews’ spiritual blessings, they owe it to the Jews to share with them their material blessings. ",
+                                "So after I have completed this task and have made sure that they have received this contribution, I will go to Spain and visit you on the way. ",
+                                "I know that when I come to you, I will come in the full measure of the blessing of Christ. ",
+                                "I urge you, brothers and sisters, by our Lord Jesus Christ and by the love of the Spirit, to join me in my struggle by praying to God for me. ",
+                                "Pray that I may be kept safe from the unbelievers in Judea and that the contribution I take to Jerusalem may be favorably received by the Lord’s people there, ",
+                                "so that I may come to you with joy, by God’s will, and in your company be refreshed. ",
+                                "The God of peace be with you all. Amen. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Psalm 69:9",
@@ -1211,38 +1518,38 @@ var RomansJames = {
                             title: "Personal Greetings",
                             verses: [
 
-                        "I commend to you our sister Phoebe, a deacon[a][b] of the church in Cenchreae. ",
-                        "I ask you to receive her in the Lord in a way worthy of his people and to give her any help she may need from you, for she has been the benefactor of many people, including me. ",
-                        "Greet Priscilla[c] and Aquila, my co-workers in Christ Jesus. ",
-                        "They risked their lives for me. Not only I but all the churches of the Gentiles are grateful to them. ",
-                        "Greet also the church that meets at their house. Greet my dear friend Epenetus, who was the first convert to Christ in the province of Asia. ",
-                        "Greet Mary, who worked very hard for you. ",
-                        "Greet Andronicus and Junia, my fellow Jews who have been in prison with me. They are outstanding among[d] the apostles, and they were in Christ before I was. ",
-                        "Greet Ampliatus, my dear friend in the Lord. ",
-                        "Greet Urbanus, our co-worker in Christ, and my dear friend Stachys. ",
-                        "Greet Apelles, whose fidelity to Christ has stood the test. Greet those who belong to the household of Aristobulus. ",
-                        "Greet Herodion, my fellow Jew. Greet those in the household of Narcissus who are in the Lord. ",
-                        "Greet Tryphena and Tryphosa, those women who work hard in the Lord. Greet my dear friend Persis, another woman who has worked very hard in the Lord. ",
-                        "Greet Rufus, chosen in the Lord, and his mother, who has been a mother to me, too. ",
-                        "Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas and the other brothers and sisters with them. ",
-                        "Greet Philologus, Julia, Nereus and his sister, and Olympas and all the Lord’s people who are with them. ",
-                        "Greet one another with a holy kiss. All the churches of Christ send greetings. ",
-                        "I urge you, brothers and sisters, to watch out for those who cause divisions and put obstacles in your way that are contrary to the teaching you have learned. Keep away from them. ",
-                        "For such people are not serving our Lord Christ, but their own appetites. By smooth talk and flattery they deceive the minds of naive people. ",
-                        "Everyone has heard about your obedience, so I rejoice because of you; but I want you to be wise about what is good, and innocent about what is evil. ",
-                        "The God of peace will soon crush Satan under your feet. The grace of our Lord Jesus be with you. ",
-                        "Timothy, my co-worker, sends his greetings to you, as do Lucius, Jason and Sosipater, my fellow Jews. ",
-                        "I, Tertius, who wrote down this letter, greet you in the Lord. ",
-                        "Gaius, whose hospitality I and the whole church here enjoy, sends you his greetings. Erastus, who is the city’s director of public works, and our brother Quartus send you their greetings.",
-                        "[e]",
-                        "Now to him who is able to establish you in accordance with my gospel, the message I proclaim about Jesus Christ, in keeping with the revelation of the mystery hidden for long ages past, ",
-                        "but now revealed and made known through the prophetic writings by the command of the eternal God, so that all the Gentiles might come to the obedience that comes from[f] faith - ",
-                        "to the only wise God be glory forever through Jesus Christ! Amen. "
+                                "I commend to you our sister Phoebe, a deacon[a][b] of the church in Cenchreae. ",
+                                "I ask you to receive her in the Lord in a way worthy of his people and to give her any help she may need from you, for she has been the benefactor of many people, including me. ",
+                                "Greet Priscilla[c] and Aquila, my co-workers in Christ Jesus. ",
+                                "They risked their lives for me. Not only I but all the churches of the Gentiles are grateful to them. ",
+                                "Greet also the church that meets at their house. Greet my dear friend Epenetus, who was the first convert to Christ in the province of Asia. ",
+                                "Greet Mary, who worked very hard for you. ",
+                                "Greet Andronicus and Junia, my fellow Jews who have been in prison with me. They are outstanding among[d] the apostles, and they were in Christ before I was. ",
+                                "Greet Ampliatus, my dear friend in the Lord. ",
+                                "Greet Urbanus, our co-worker in Christ, and my dear friend Stachys. ",
+                                "Greet Apelles, whose fidelity to Christ has stood the test. Greet those who belong to the household of Aristobulus. ",
+                                "Greet Herodion, my fellow Jew. Greet those in the household of Narcissus who are in the Lord. ",
+                                "Greet Tryphena and Tryphosa, those women who work hard in the Lord. Greet my dear friend Persis, another woman who has worked very hard in the Lord. ",
+                                "Greet Rufus, chosen in the Lord, and his mother, who has been a mother to me, too. ",
+                                "Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas and the other brothers and sisters with them. ",
+                                "Greet Philologus, Julia, Nereus and his sister, and Olympas and all the Lord’s people who are with them. ",
+                                "Greet one another with a holy kiss. All the churches of Christ send greetings. ",
+                                "I urge you, brothers and sisters, to watch out for those who cause divisions and put obstacles in your way that are contrary to the teaching you have learned. Keep away from them. ",
+                                "For such people are not serving our Lord Christ, but their own appetites. By smooth talk and flattery they deceive the minds of naive people. ",
+                                "Everyone has heard about your obedience, so I rejoice because of you; but I want you to be wise about what is good, and innocent about what is evil. ",
+                                "The God of peace will soon crush Satan under your feet. The grace of our Lord Jesus be with you. ",
+                                "Timothy, my co-worker, sends his greetings to you, as do Lucius, Jason and Sosipater, my fellow Jews. ",
+                                "I, Tertius, who wrote down this letter, greet you in the Lord. ",
+                                "Gaius, whose hospitality I and the whole church here enjoy, sends you his greetings. Erastus, who is the city’s director of public works, and our brother Quartus send you their greetings.",
+                                "[e]",
+                                "Now to him who is able to establish you in accordance with my gospel, the message I proclaim about Jesus Christ, in keeping with the revelation of the mystery hidden for long ages past, ",
+                                "but now revealed and made known through the prophetic writings by the command of the eternal God, so that all the Gentiles might come to the obedience that comes from[f] faith - ",
+                                "to the only wise God be glory forever through Jesus Christ! Amen. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Or _servant_",
@@ -1302,20 +1609,20 @@ var RomansJames = {
                             title: "Listening and Doing",
                             verses: [
 
-                        "My dear brothers and sisters, take note of this: Everyone should be quick to listen, slow to speak and slow to become angry, ",
-                        "because human anger does not produce the righteousness that God desires. ",
-                        "Therefore, get rid of all moral filth and the evil that is so prevalent and humbly accept the word planted in you, which can save you. ",
-                        "Do not merely listen to the word, and so deceive yourselves. Do what it says. ",
-                        "Anyone who listens to the word but does not do what it says is like someone who looks at his face in a mirror ",
-                        "and, after looking at himself, goes away and immediately forgets what he looks like. ",
-                        "But whoever looks intently into the perfect law that gives freedom, and continues in it-not forgetting what they have heard, but doing it-they will be blessed in what they do. ",
-                        "Those who consider themselves religious and yet do not keep a tight rein on their tongues deceive themselves, and their religion is worthless. ",
-                        "Religion that God our Father accepts as pure and faultless is this: to look after orphans and widows in their distress and to keep oneself from being polluted by the world. "
+                                "My dear brothers and sisters, take note of this: Everyone should be quick to listen, slow to speak and slow to become angry, ",
+                                "because human anger does not produce the righteousness that God desires. ",
+                                "Therefore, get rid of all moral filth and the evil that is so prevalent and humbly accept the word planted in you, which can save you. ",
+                                "Do not merely listen to the word, and so deceive yourselves. Do what it says. ",
+                                "Anyone who listens to the word but does not do what it says is like someone who looks at his face in a mirror ",
+                                "and, after looking at himself, goes away and immediately forgets what he looks like. ",
+                                "But whoever looks intently into the perfect law that gives freedom, and continues in it-not forgetting what they have heard, but doing it-they will be blessed in what they do. ",
+                                "Those who consider themselves religious and yet do not keep a tight rein on their tongues deceive themselves, and their religion is worthless. ",
+                                "Religion that God our Father accepts as pure and faultless is this: to look after orphans and widows in their distress and to keep oneself from being polluted by the world. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "The Greek word for _brothers and sisters (adelphoi)_ refers here to believers, both men and women, as part of God’s family; also in verses 16 and 19; and in 2:1, 5, 14; 3:10, 12; 4:11; 5:7, 9, 10, 12, 19."
@@ -1329,44 +1636,44 @@ var RomansJames = {
                             title: "Favoritism Forbidden",
                             verses: [
 
-                        "My brothers and sisters, believers in our glorious Lord Jesus Christ must not show favoritism. ",
-                        "Suppose a man comes into your meeting wearing a gold ring and fine clothes, and a poor man in filthy old clothes also comes in. ",
-                        "If you show special attention to the man wearing fine clothes and say, “Here’s a good seat for you,” but say to the poor man, “You stand there” or “Sit on the floor by my feet,” ",
-                        "have you not discriminated among yourselves and become judges with evil thoughts? ",
-                        "Listen, my dear brothers and sisters: Has not God chosen those who are poor in the eyes of the world to be rich in faith and to inherit the kingdom he promised those who love him? ",
-                        "But you have dishonored the poor. Is it not the rich who are exploiting you? Are they not the ones who are dragging you into court? ",
-                        "Are they not the ones who are blaspheming the noble name of him to whom you belong? ",
-                        "If you really keep the royal law found in Scripture, “Love your neighbor as yourself,”[a] you are doing right. ",
-                        "But if you show favoritism, you sin and are convicted by the law as lawbreakers. ",
-                        "For whoever keeps the whole law and yet stumbles at just one point is guilty of breaking all of it. ",
-                        "For he who said, “You shall not commit adultery,”[b] also said, “You shall not murder.”[c] If you do not commit adultery but do commit murder, you have become a lawbreaker. ",
-                        "Speak and act as those who are going to be judged by the law that gives freedom, ",
-                        "because judgment without mercy will be shown to anyone who has not been merciful. Mercy triumphs over judgment. "
+                                "My brothers and sisters, believers in our glorious Lord Jesus Christ must not show favoritism. ",
+                                "Suppose a man comes into your meeting wearing a gold ring and fine clothes, and a poor man in filthy old clothes also comes in. ",
+                                "If you show special attention to the man wearing fine clothes and say, “Here’s a good seat for you,” but say to the poor man, “You stand there” or “Sit on the floor by my feet,” ",
+                                "have you not discriminated among yourselves and become judges with evil thoughts? ",
+                                "Listen, my dear brothers and sisters: Has not God chosen those who are poor in the eyes of the world to be rich in faith and to inherit the kingdom he promised those who love him? ",
+                                "But you have dishonored the poor. Is it not the rich who are exploiting you? Are they not the ones who are dragging you into court? ",
+                                "Are they not the ones who are blaspheming the noble name of him to whom you belong? ",
+                                "If you really keep the royal law found in Scripture, “Love your neighbor as yourself,”[a] you are doing right. ",
+                                "But if you show favoritism, you sin and are convicted by the law as lawbreakers. ",
+                                "For whoever keeps the whole law and yet stumbles at just one point is guilty of breaking all of it. ",
+                                "For he who said, “You shall not commit adultery,”[b] also said, “You shall not murder.”[c] If you do not commit adultery but do commit murder, you have become a lawbreaker. ",
+                                "Speak and act as those who are going to be judged by the law that gives freedom, ",
+                                "because judgment without mercy will be shown to anyone who has not been merciful. Mercy triumphs over judgment. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Faith and Deeds",
                             verses: [
 
-                        "What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them? ",
-                        "Suppose a brother or a sister is without clothes and daily food. ",
-                        "If one of you says to them, “Go in peace; keep warm and well fed,” but does nothing about their physical needs, what good is it? ",
-                        "In the same way, faith by itself, if it is not accompanied by action, is dead. ",
-                        "But someone will say, “You have faith; I have deeds.” Show me your faith without deeds, and I will show you my faith by my deeds. ",
-                        "You believe that there is one God. Good! Even the demons believe that - and shudder. ",
-                        "You foolish person, do you want evidence that faith without deeds is useless[d]? ",
-                        "Was not our father Abraham considered righteous for what he did when he offered his son Isaac on the altar? ",
-                        "You see that his faith and his actions were working together, and his faith was made complete by what he did. ",
-                        "And the scripture was fulfilled that says, “Abraham believed God, and it was credited to him as righteousness,”[e] and he was called God’s friend. ",
-                        "You see that a person is considered righteous by what they do and not by faith alone. ",
-                        "In the same way, was not even Rahab the prostitute considered righteous for what she did when she gave lodging to the spies and sent them off in a different direction? ",
-                        "As the body without the spirit is dead, so faith without deeds is dead. "
+                                "What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them? ",
+                                "Suppose a brother or a sister is without clothes and daily food. ",
+                                "If one of you says to them, “Go in peace; keep warm and well fed,” but does nothing about their physical needs, what good is it? ",
+                                "In the same way, faith by itself, if it is not accompanied by action, is dead. ",
+                                "But someone will say, “You have faith; I have deeds.” Show me your faith without deeds, and I will show you my faith by my deeds. ",
+                                "You believe that there is one God. Good! Even the demons believe that - and shudder. ",
+                                "You foolish person, do you want evidence that faith without deeds is useless[d]? ",
+                                "Was not our father Abraham considered righteous for what he did when he offered his son Isaac on the altar? ",
+                                "You see that his faith and his actions were working together, and his faith was made complete by what he did. ",
+                                "And the scripture was fulfilled that says, “Abraham believed God, and it was credited to him as righteousness,”[e] and he was called God’s friend. ",
+                                "You see that a person is considered righteous by what they do and not by faith alone. ",
+                                "In the same way, was not even Rahab the prostitute considered righteous for what she did when she gave lodging to the spies and sent them off in a different direction? ",
+                                "As the body without the spirit is dead, so faith without deeds is dead. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Lev. 19:18",
@@ -1384,36 +1691,36 @@ var RomansJames = {
                             title: "Taming the Tongue",
                             verses: [
 
-                        "Not many of you should become teachers, my fellow believers, because you know that we who teach will be judged more strictly. ",
-                        "We all stumble in many ways. Anyone who is never at fault in what they say is perfect, able to keep their whole body in check. ",
-                        "When we put bits into the mouths of horses to make them obey us, we can turn the whole animal. ",
-                        "Or take ships as an example. Although they are so large and are driven by strong winds, they are steered by a very small rudder wherever the pilot wants to go. ",
-                        "Likewise, the tongue is a small part of the body, but it makes great boasts. Consider what a great forest is set on fire by a small spark. ",
-                        "The tongue also is a fire, a world of evil among the parts of the body. It corrupts the whole body, sets the whole course of one’s life on fire, and is itself set on fire by hell. ",
-                        "All kinds of animals, birds, reptiles and sea creatures are being tamed and have been tamed by mankind, ",
-                        "but no human being can tame the tongue. It is a restless evil, full of deadly poison. ",
-                        "With the tongue we praise our Lord and Father, and with it we curse human beings, who have been made in God’s likeness. ",
-                        "Out of the same mouth come praise and cursing. My brothers and sisters, this should not be. ",
-                        "Can both fresh water and salt water flow from the same spring? ",
-                        "My brothers and sisters, can a fig tree bear olives, or a grapevine bear figs? Neither can a salt spring produce fresh water. "
+                                "Not many of you should become teachers, my fellow believers, because you know that we who teach will be judged more strictly. ",
+                                "We all stumble in many ways. Anyone who is never at fault in what they say is perfect, able to keep their whole body in check. ",
+                                "When we put bits into the mouths of horses to make them obey us, we can turn the whole animal. ",
+                                "Or take ships as an example. Although they are so large and are driven by strong winds, they are steered by a very small rudder wherever the pilot wants to go. ",
+                                "Likewise, the tongue is a small part of the body, but it makes great boasts. Consider what a great forest is set on fire by a small spark. ",
+                                "The tongue also is a fire, a world of evil among the parts of the body. It corrupts the whole body, sets the whole course of one’s life on fire, and is itself set on fire by hell. ",
+                                "All kinds of animals, birds, reptiles and sea creatures are being tamed and have been tamed by mankind, ",
+                                "but no human being can tame the tongue. It is a restless evil, full of deadly poison. ",
+                                "With the tongue we praise our Lord and Father, and with it we curse human beings, who have been made in God’s likeness. ",
+                                "Out of the same mouth come praise and cursing. My brothers and sisters, this should not be. ",
+                                "Can both fresh water and salt water flow from the same spring? ",
+                                "My brothers and sisters, can a fig tree bear olives, or a grapevine bear figs? Neither can a salt spring produce fresh water. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Two Kinds of Wisdom",
                             verses: [
 
-                        "Who is wise and understanding among you? Let them show it by their good life, by deeds done in the humility that comes from wisdom. ",
-                        "But if you harbor bitter envy and selfish ambition in your hearts, do not boast about it or deny the truth. ",
-                        "Such “wisdom” does not come down from heaven but is earthly, unspiritual, demonic. ",
-                        "For where you have envy and selfish ambition, there you find disorder and every evil practice. ",
-                        "But the wisdom that comes from heaven is first of all pure; then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere. ",
-                        "Peacemakers who sow in peace reap a harvest of righteousness. "
+                                "Who is wise and understanding among you? Let them show it by their good life, by deeds done in the humility that comes from wisdom. ",
+                                "But if you harbor bitter envy and selfish ambition in your hearts, do not boast about it or deny the truth. ",
+                                "Such “wisdom” does not come down from heaven but is earthly, unspiritual, demonic. ",
+                                "For where you have envy and selfish ambition, there you find disorder and every evil practice. ",
+                                "But the wisdom that comes from heaven is first of all pure; then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere. ",
+                                "Peacemakers who sow in peace reap a harvest of righteousness. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         //No footnotes for this chapter
@@ -1427,35 +1734,35 @@ var RomansJames = {
                             title: "Submit Yourselves to God",
                             verses: [
 
-                        "What causes fights and quarrels among you? Don’t they come from your desires that battle within you? ",
-                        "You desire but do not have, so you kill. You covet but you cannot get what you want, so you quarrel and fight. You do not have because you do not ask God. ",
-                        "When you ask, you do not receive, because you ask with wrong motives, that you may spend what you get on your pleasures. ",
-                        "You adulterous people,[a] don’t you know that friendship with the world means enmity against God? Therefore, anyone who chooses to be a friend of the world becomes an enemy of God. ",
-                        "Or do you think Scripture says without reason that he jealously longs for the spirit he has caused to dwell in us[b]? ",
-                        "But he gives us more grace. That is why Scripture says: “God opposes the proud but shows favor to the humble.”[c] ",
-                        "Submit yourselves, then, to God. Resist the devil, and he will flee from you. ",
-                        "Come near to God and he will come near to you. Wash your hands, you sinners, and purify your hearts, you double-minded. ",
-                        "Grieve, mourn and wail. Change your laughter to mourning and your joy to gloom. ",
-                        "Humble yourselves before the Lord, and he will lift you up. ",
-                        "Brothers and sisters, do not slander one another. Anyone who speaks against a brother or sister[d] or judges them speaks against the law and judges it. When you judge the law, you are not keeping it, but sitting in judgment on it. ",
-                        "There is only one Lawgiver and Judge, the one who is able to save and destroy. But you - who are you to judge your neighbor? ",
+                                "What causes fights and quarrels among you? Don’t they come from your desires that battle within you? ",
+                                "You desire but do not have, so you kill. You covet but you cannot get what you want, so you quarrel and fight. You do not have because you do not ask God. ",
+                                "When you ask, you do not receive, because you ask with wrong motives, that you may spend what you get on your pleasures. ",
+                                "You adulterous people,[a] don’t you know that friendship with the world means enmity against God? Therefore, anyone who chooses to be a friend of the world becomes an enemy of God. ",
+                                "Or do you think Scripture says without reason that he jealously longs for the spirit he has caused to dwell in us[b]? ",
+                                "But he gives us more grace. That is why Scripture says: “God opposes the proud but shows favor to the humble.”[c] ",
+                                "Submit yourselves, then, to God. Resist the devil, and he will flee from you. ",
+                                "Come near to God and he will come near to you. Wash your hands, you sinners, and purify your hearts, you double-minded. ",
+                                "Grieve, mourn and wail. Change your laughter to mourning and your joy to gloom. ",
+                                "Humble yourselves before the Lord, and he will lift you up. ",
+                                "Brothers and sisters, do not slander one another. Anyone who speaks against a brother or sister[d] or judges them speaks against the law and judges it. When you judge the law, you are not keeping it, but sitting in judgment on it. ",
+                                "There is only one Lawgiver and Judge, the one who is able to save and destroy. But you - who are you to judge your neighbor? ",
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Boasting About Tomorrow",
                             verses: [
 
-                        "Now listen, you who say, “Today or tomorrow we will go to this or that city, spend a year there, carry on business and make money.” ",
-                        "Why, you do not even know what will happen tomorrow. What is your life? You are a mist that appears for a little while and then vanishes. ",
-                        "Instead, you ought to say, “If it is the Lord’s will, we will live and do this or that.” ",
-                        "As it is, you boast in your arrogant schemes. All such boasting is evil. ",
-                        "If anyone, then, knows the good they ought to do and doesn’t do it, it is sin for them. "
+                                "Now listen, you who say, “Today or tomorrow we will go to this or that city, spend a year there, carry on business and make money.” ",
+                                "Why, you do not even know what will happen tomorrow. What is your life? You are a mist that appears for a little while and then vanishes. ",
+                                "Instead, you ought to say, “If it is the Lord’s will, we will live and do this or that.” ",
+                                "As it is, you boast in your arrogant schemes. All such boasting is evil. ",
+                                "If anyone, then, knows the good they ought to do and doesn’t do it, it is sin for them. "
 
-                    ]
-                },
+                            ]
+                        },
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "An allusion to covenant unfaithfulness; see Hosea 3:1.",
@@ -1472,45 +1779,45 @@ var RomansJames = {
                             title: "Warning to Rich Oppressors",
                             verses: [
 
-                        "Now listen, you rich people, weep and wail because of the misery that is coming on you. ",
-                        "Your wealth has rotted, and moths have eaten your clothes. ",
-                        "Your gold and silver are corroded. Their corrosion will testify against you and eat your flesh like fire. You have hoarded wealth in the last days. ",
-                        "Look! The wages you failed to pay the workers who mowed your fields are crying out against you. The cries of the harvesters have reached the ears of the Lord Almighty. ",
-                        "You have lived on earth in luxury and self-indulgence. You have fattened yourselves in the day of slaughter.[a] ",
-                        "You have condemned and murdered the innocent one, who was not opposing you. "
+                                "Now listen, you rich people, weep and wail because of the misery that is coming on you. ",
+                                "Your wealth has rotted, and moths have eaten your clothes. ",
+                                "Your gold and silver are corroded. Their corrosion will testify against you and eat your flesh like fire. You have hoarded wealth in the last days. ",
+                                "Look! The wages you failed to pay the workers who mowed your fields are crying out against you. The cries of the harvesters have reached the ears of the Lord Almighty. ",
+                                "You have lived on earth in luxury and self-indulgence. You have fattened yourselves in the day of slaughter.[a] ",
+                                "You have condemned and murdered the innocent one, who was not opposing you. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "Patience in Suffering",
                             verses: [
 
-                        "Be patient, then, brothers and sisters, until the Lord’s coming. See how the farmer waits for the land to yield its valuable crop, patiently waiting for the autumn and spring rains. ",
-                        "You too, be patient and stand firm, because the Lord’s coming is near. ",
-                        "Don’t grumble against one another, brothers and sisters, or you will be judged. The Judge is standing at the door! ",
-                        "Brothers and sisters, as an example of patience in the face of suffering, take the prophets who spoke in the name of the Lord. ",
-                        "As you know, we count as blessed those who have persevered. You have heard of Job’s perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy. ",
-                        "Above all, my brothers and sisters, do not swear-not by heaven or by earth or by anything else. All you need to say is a simple “Yes” or “No.” Otherwise you will be condemned. "
+                                "Be patient, then, brothers and sisters, until the Lord’s coming. See how the farmer waits for the land to yield its valuable crop, patiently waiting for the autumn and spring rains. ",
+                                "You too, be patient and stand firm, because the Lord’s coming is near. ",
+                                "Don’t grumble against one another, brothers and sisters, or you will be judged. The Judge is standing at the door! ",
+                                "Brothers and sisters, as an example of patience in the face of suffering, take the prophets who spoke in the name of the Lord. ",
+                                "As you know, we count as blessed those who have persevered. You have heard of Job’s perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy. ",
+                                "Above all, my brothers and sisters, do not swear-not by heaven or by earth or by anything else. All you need to say is a simple “Yes” or “No.” Otherwise you will be condemned. "
 
-                    ]
-                },
+                            ]
+                        },
                         {
                             title: "The Prayer of Faith",
                             verses: [
 
-                        "Is anyone among you in trouble? Let them pray. Is anyone happy? Let them sing songs of praise. ",
-                        "Is anyone among you sick? Let them call the elders of the church to pray over them and anoint them with oil in the name of the Lord. ",
-                        "And the prayer offered in faith will make the sick person well; the Lord will raise them up. If they have sinned, they will be forgiven. ",
-                        "Therefore confess your sins to each other and pray for each other so that you may be healed. The prayer of a righteous person is powerful and effective. ",
-                        "Elijah was a human being, even as we are. He prayed earnestly that it would not rain, and it did not rain on the land for three and a half years. ",
-                        "Again he prayed, and the heavens gave rain, and the earth produced its crops. ",
-                        "My brothers and sisters, if one of you should wander from the truth and someone should bring that person back, ",
-                        "remember this: Whoever turns a sinner from the error of their way will save them from death and cover over a multitude of sins. "
+                                "Is anyone among you in trouble? Let them pray. Is anyone happy? Let them sing songs of praise. ",
+                                "Is anyone among you sick? Let them call the elders of the church to pray over them and anoint them with oil in the name of the Lord. ",
+                                "And the prayer offered in faith will make the sick person well; the Lord will raise them up. If they have sinned, they will be forgiven. ",
+                                "Therefore confess your sins to each other and pray for each other so that you may be healed. The prayer of a righteous person is powerful and effective. ",
+                                "Elijah was a human being, even as we are. He prayed earnestly that it would not rain, and it did not rain on the land for three and a half years. ",
+                                "Again he prayed, and the heavens gave rain, and the earth produced its crops. ",
+                                "My brothers and sisters, if one of you should wander from the truth and someone should bring that person back, ",
+                                "remember this: Whoever turns a sinner from the error of their way will save them from death and cover over a multitude of sins. "
 
-                    ]
-                }
+                            ]
+                        }
 
-            ],
+                    ],
                     footnotes: {
 
                         a: "Or _yourselves as in a day of feasting_"

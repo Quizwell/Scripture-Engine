@@ -720,6 +720,11 @@ var RomansJames = {
                                 ],
                                 [
                                     {
+                                        pronoun: "it",
+                                        antecedent: "Abraham's faith",
+                                        reference: "R 4:9"
+                                    },
+                                    {
                                         pronoun: "he",
                                         antecedent: "Abraham",
                                         reference: "R 4:9"

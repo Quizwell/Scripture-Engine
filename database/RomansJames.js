@@ -389,6 +389,11 @@ var RomansJames = {
                                         pronoun: "them",
                                         antecedent: "Gentiles",
                                         reference: "R 2:14"
+                                    },
+                                    {
+                                        pronoun: "them.)",
+                                        antecedent: "Gentiles",
+                                        reference: "R 2:14"
                                     }
                                 ],
                                 []
@@ -703,7 +708,7 @@ var RomansJames = {
                                 [],
                                 [
                                     {
-                                        pronoun: "them.",
+                                        pronoun: "them.”",
                                         antecedent: "the one"
                                     }
                                 ],

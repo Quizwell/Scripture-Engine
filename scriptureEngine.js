@@ -154,8 +154,8 @@ var scriptureEngine = {
         
         //Define advanced search functions now for possible use later
         function parse(input) {
-            var andMatches = input.match(/ &+ /g);
-            var orMatches = input.match(/ \?+ /g);
+            var andMatches = input.match(/ \++ /g);
+            var orMatches = input.match(/ \/+ /g);
             
             var andLongestLength = 0;
             var orLongestLength = 0;
@@ -166,14 +166,14 @@ var scriptureEngine = {
                 andMatches.forEach((item, index) => {
                     if (item.length > andLongestLength) {andLongestLength = item.length}
                 });
-                andSearchRegex = new RegExp(" " + "&".repeat(andLongestLength - 2) + " ", "g");
+                andSearchRegex = new RegExp(" " + "\\+".repeat(andLongestLength - 2) + " ", "g");
             }
             
             if (orMatches) {
                 orMatches.forEach((item, index) => {
                     if (item.length > orLongestLength) {orLongestLength = item.length}
                 });
-                orSearchRegex = new RegExp(" " + "\\?".repeat(orLongestLength - 2) + " ", "g");
+                orSearchRegex = new RegExp(" " + "\\/".repeat(orLongestLength - 2) + " ", "g");
             }
             
             if (andMatches || orMatches) {
@@ -299,7 +299,7 @@ var scriptureEngine = {
                         //Determine whether to use the advanced search algorithm or not
                         if (
                             useAdvancedSearch &&
-                            filteredQuery.match(/( [?&]+ |!)/g)
+                            filteredQuery.match(/( [/+]+ |!)/g)
                         ) {
                             
                             //Loop through each global NOT item. If there are any matches in this verse, move to the next one.
@@ -943,7 +943,7 @@ var scriptureEngine = {
         }
         
         if (preserveAdvancedSearchCharacters) {
-            verseText = verseText.replaceAll(/[^\w?&! ]/g, "");
+            verseText = verseText.replaceAll(/[^\w/+! ]/g, "");
         } else {
             verseText = verseText.replaceAll(/[^\w ]/g, "");
         }

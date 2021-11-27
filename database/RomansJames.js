@@ -110,7 +110,12 @@ var RomansJames = {
                                 [],
                                 [],
                                 [],
-                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the gospel",
+                                    }
+                                ],
                                 []
                                 
                             ]
@@ -878,6 +883,52 @@ var RomansJames = {
                                 "For if, while we were God’s enemies, we were reconciled to him through the death of his Son, how much more, having been reconciled, shall we be saved through his life! ",
                                 "Not only is this so, but we also boast in God through our Lord Jesus Christ, through whom we have now received reconciliation. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Christ",
+                                        reference: "R 5:8"
+                                    },
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Christ",
+                                        reference: "R 5:8"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        occurrence: 1,
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        occurrence: 2,
+                                        antecedent: "God's Son"
+                                    }
+                                ],
+                                []
+
                             ]
                         },
                         {
@@ -894,6 +945,20 @@ var RomansJames = {
                                 "For just as through the disobedience of the one man the many were made sinners, so also through the obedience of the one man the many will be made righteous. ",
                                 "The law was brought in so that the trespass might increase. But where sin increased, grace increased all the more, ",
                                 "so that, just as sin reigned in death, so also grace might reign through righteousness to bring eternal life through Jesus Christ our Lord. ",
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
 
                             ]
                         },
@@ -929,11 +994,92 @@ var RomansJames = {
                                 "Do not offer any part of yourself to sin as an instrument of wickedness, but rather offer yourselves to God as those who have been brought from death to life; and offer every part of yourself to him as an instrument of righteousness. ",
                                 "For sin shall no longer be your master, because you are not under the law, but under grace. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "sin"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Christ Jesus"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Christ Jesus",
+                                        reference: "R 6:3"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Christ Jesus",
+                                        reference: "R 6:3"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Christ Jesus",
+                                        reference: "R 6:3"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Christ Jesus",
+                                        reference: "R 6:3"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "him.",
+                                        antecedent: "Christ"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Christ"
+                                    },
+                                    {
+                                        pronoun: "him.",
+                                        antecedent: "Christ"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Christ",
+                                        reference: "R 6:9"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "its",
+                                        antecedent: "sin"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                []
+
                             ]
                         },
-                                {
-                                    title: "Slaves to Righteousness",
-                                    verses: [
+                        {
+                            title: "Slaves to Righteousness",
+                            verses: [
 
                                 "What then? Shall we sin because we are not under the law but under grace? By no means! ",
                                 "Don’t you know that when you offer yourselves to someone as obedient slaves, you are slaves of the one you obey - whether you are slaves to sin, which leads to death, or to obedience, which leads to righteousness? ",
@@ -945,6 +1091,19 @@ var RomansJames = {
                                 "But now that you have been set free from sin and have become slaves of God, the benefit you reap leads to holiness, and the result is eternal life. ",
                                 "For the wages of sin is death, but the gift of God is eternal life in[b] Christ Jesus our Lord. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
+                                
                             ]
                         }
 
@@ -970,11 +1129,49 @@ var RomansJames = {
                                 "For when we were in the realm of the flesh,[a] the sinful passions aroused by the law were at work in us, so that we bore fruit for death. ",
                                 "But now, by dying to what once bound us, we have been released from the law so that we serve in the new way of the Spirit, and not in the old way of the written code. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "her",
+                                        antecedent: "a married woman"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "a married woman's husband"
+                                    },
+                                    {
+                                        pronoun: "she",
+                                        antecedent: "a married woman"
+                                    },
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "a married woman's husband"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "she",
+                                        antecedent: "a married woman",
+                                        reference: "R 7:2"
+                                    },
+                                    {
+                                        pronoun: "her",
+                                        antecedent: "a married woman",
+                                        reference: "R 7:2"
+                                    }
+                                ],
+                                [],
+                                [],
+                                []
+
                             ]
                         },
-                                {
-                                    title: "The Law and Sin",
-                                    verses: [
+                        {
+                            title: "The Law and Sin",
+                            verses: [
 
                                 "What shall we say, then? Is the law sinful? Certainly not! Nevertheless, I would not have known what sin was had it not been for the law. For I would not have known what coveting really was if the law had not said, “You shall not covet.”[b] ",
                                 "But sin, seizing the opportunity afforded by the commandment, produced in me every kind of coveting. For apart from the law, sin was dead. ",
@@ -995,6 +1192,56 @@ var RomansJames = {
                                 "but I see another law at work in me, waging war against the law of my mind and making me a prisoner of the law of sin at work within me. ",
                                 "What a wretched man I am! Who will rescue me from this body that is subject to death? ",
                                 "Thanks be to God, who delivers me through Jesus Christ our Lord! So then, I myself in my mind am a slave to God’s law, but in my sinful nature[d] a slave to the law of sin."
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "sin"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        occurrence: 3,
+                                        antecedent: "what Paul does not want to do"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "this",
+                                        antecedent: "the evil Paul does not want to do"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        occurrence: 2,
+                                        antecedent: "what Paul does not want to do"
+                                    },
+                                    {
+                                        pronoun: "it",
+                                        occurrence: 4,
+                                        antecedent: "what Paul does not want to do"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
 
                             ]
                         }
@@ -1034,6 +1281,85 @@ var RomansJames = {
                                 "The Spirit himself testifies with our spirit that we are God’s children. ",
                                 "Now if we are children, then we are heirs - heirs of God and co-heirs with Christ, if indeed we share in his sufferings in order that we may also share in his glory."
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the law"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        occurrence: 1,
+                                        antecedent: "those who live according to the flesh"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        occurrence: 2,
+                                        antecedent: "those who live in accordance with the Spirit"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the mind goverened by the flesh"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "anyone"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "he who raised Christ from the dead"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "our obligation"
+                                    },
+                                    {
+                                        pronoun: "it.",
+                                        antecedent: "the flesh"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "the Spirit you received"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Christ"
+                                    }
+                                ]
+
                             ]
                         },
                         {
@@ -1054,6 +1380,66 @@ var RomansJames = {
                                 "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. ",
                                 "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified.",
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "its",
+                                        antecedent: "the creation"
+                                    },
+                                    {
+                                        pronoun: "it,",
+                                        antecedent: "the creation"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "its",
+                                        antecedent: "the creation itself"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "what we do not have"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "R 8:29"
+                                    }
+                                ]
+
                             ]
                         },
                         {
@@ -1069,6 +1455,28 @@ var RomansJames = {
                                 "No, in all these things we are more than conquerors through him who loved us. ",
                                 "For I am convinced that neither death nor life, neither angels nor demons,[k] neither the present nor the future, nor any powers, ",
                                 "neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "his own Son"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "he who did not spare his own Son"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
 
                             ]
                         }
@@ -1103,6 +1511,40 @@ var RomansJames = {
                                 "the people of Israel. Theirs is the adoption to sonship; theirs the divine glory, the covenants, the receiving of the law, the temple worship and the promises. ",
                                 "Theirs are the patriarchs, and from them is traced the human ancestry of the Messiah, who is God over all, forever praised![a] Amen."
 
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "Paul's not lying"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "Theirs",
+                                        antecedent: "the people of Israel"
+                                    },
+                                    {
+                                        pronoun: "theirs",
+                                        antecedent: "the people of Israel"
+                                    },
+                                ],
+                                [
+                                    {
+                                        pronoun: "Theirs",
+                                        antecedent: "the people of Israel",
+                                        reference: "R 9:4"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "the people of Israel",
+                                        reference: "R 9:4"
+                                    },
+                                ]
+
                             ]
                         },
                         {
@@ -1125,7 +1567,7 @@ var RomansJames = {
                                 "One of you will say to me: “Then why does God still blame us? For who is able to resist his will?” ",
                                 "But who are you, a human being, to talk back to God? “Shall what is formed say to the one who formed it, ‘Why did you make me like this?’”[h] ",
                                 "Does not the potter have the right to make out of the same lump of clay some pottery for special purposes and some for common use? ",
-                                "What if God, although choosing to show his wrath and make his power known, bore with great patience the objects of his wrath-prepared for destruction? ",
+                                "What if God, although choosing to show his wrath and make his power known, bore with great patience the objects of his wrath - prepared for destruction? ",
                                 "What if he did this to make the riches of his glory known to the objects of his mercy, whom he prepared in advance for glory - ",
                                 "even us, whom he also called, not only from the Jews but also from the Gentiles? ",
                                 "As he says in Hosea: “I will call them ‘my people’ who are not my people; and I will call her ‘my loved one’ who is not my loved one,”[i] ",
@@ -1133,6 +1575,117 @@ var RomansJames = {
                                 "Isaiah cries out concerning Israel: “Though the number of the Israelites be like the sand by the sea, only the remnant will be saved. ",
                                 "For the Lord will carry out his sentence on earth with speed and finality.”[k] ",
                                 "It is just as Isaiah said previously: “Unless the Lord Almighty had left us descendants, we would have become like Sodom, we would have been like Gomorrah.”[l] ",
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "all who are decended from Israel",
+                                        reference: "R 9:6"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Abraham"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "she",
+                                        antecedent: "Rebekah",
+                                        reference: "R 9:10"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "R 9:14"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it,",
+                                        antecedent: "what is formed"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "R 9:22"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God",
+                                        reference: "R 9:22"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "R 9:22"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God",
+                                        reference: "R 9:22"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "R 9:22"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "R 9:22"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "the Lord"
+                                    }
+                                ],
+                                []
 
                             ]
                         },
@@ -1145,6 +1698,40 @@ var RomansJames = {
                                 "Why not? Because they pursued it not by faith but as if it were by works. They stumbled over the stumbling stone. ",
                                 "As it is written: “See, I lay in Zion a stone that causes people to stumble and a rock that makes them fall, and the one who believes in him will never be put to shame.”[m] ",
                                 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the people of Israel"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the people of Israel",
+                                        reference: "R 9:31"
+                                    },
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "their goal",
+                                        reference: "R 9:31"
+                                    },
+                                    {
+                                        pronoun: "They",
+                                        antecedent: "the people of Israel",
+                                        reference: "R 9:31"
+                                    },
+                                ],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "people"
+                                    }
+                                ]
+
                             ]
                         }
 
@@ -1196,8 +1783,98 @@ var RomansJames = {
                                 "And Isaiah boldly says, “I was found by those who did not seek me; I revealed myself to those who did not ask for me.”[k]",
                                 "But concerning Israel he says, “All day long I have held out my hands to a disobedient and obstinate people.”[l]"
 
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the Israelites"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "the Israelites",
+                                        reference: "R 10:1"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the Israelites",
+                                        reference: "R 10:1"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the Israelites",
+                                        reference: "R 10:1"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the Israelites",
+                                        reference: "R 10:1"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the Israelites",
+                                        reference: "R 10:1"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        occurrence: 2,
+                                        antecedent: "the word"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Jesus"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "him,",
+                                        antecedent: "the same Lord"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "anyone"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the Isrealites",
+                                        reference: "R 10:16"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Isaiah",
+                                        reference: "R 10:20"
+                                    }
+                                ]
+
                             ]
-                        }
+                        },
 
                     ],
                     footnotes: {
@@ -1235,6 +1912,55 @@ var RomansJames = {
                                 "And David says: “May their table become a snare and a trap, a stumbling block and a retribution for them. ",
                                 "May their eyes be darkened so they cannot see, and their backs be bent forever.”[d] "
 
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        occurrence: 1,
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        occurrence: 2,
+                                        antecedent: "Elijah"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "him?",
+                                        antecedent: "Elijah",
+                                        reference: "R 11:2"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the people of Israel"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "the people of Israel"
+                                    }
+                                ],
+                                [],
+                                [],
+                                []
+
                             ]
                         },
                         {
@@ -1256,6 +1982,84 @@ var RomansJames = {
                                 "And if they do not persist in unbelief, they will be grafted in, for God is able to graft them in again. ",
                                 "After all, if you were cut out of an olive tree that is wild by nature, and contrary to nature were grafted into a cultivated olive tree, how much more readily will these, the natural branches, be grafted into their own olive tree! ",
 
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the people of Israel",
+                                        reference: "R 11:7"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the people of Israel",
+                                        reference: "R 11:7"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "Israel",
+                                        reference: "R 11:11"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "Paul's own people"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "Paul's own people",
+                                        reference: "R 11:14"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "branches",
+                                        reference: "R 11:19"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "god"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "those who fell",
+                                        reference: "R 11:22"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "those who fell",
+                                        reference: "R 11:22"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the natural branches"
+                                    }
+                                ]
+
                             ]
                         },
                         {
@@ -1271,6 +2075,66 @@ var RomansJames = {
                                 "so they too have now become disobedient in order that they too may now[h] receive mercy as a result of God’s mercy to you. ",
                                 "For God has bound everyone over to disobedience so that he may have mercy on them all. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "the deliverer"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "Jacob",
+                                        reference: "R 11:26"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "Jacob",
+                                        reference: "R 11:26"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "all Israel",
+                                        reference: "R 11:26"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "all Israel",
+                                        reference: "R 11:26"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "all Israel",
+                                        reference: "R 11:26"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "everyone"
+                                    }
+                                ]
+
                             ]
                         },
                         {
@@ -1281,6 +2145,30 @@ var RomansJames = {
                                 "“Who has known the mind of the Lord? Or who has been his counselor?”[j] ",
                                 "“Who has ever given to God, that God should repay them?”[k] ",
                                 "For from him and through him and for him are all things. To him be the glory forever! Amen. ",
+
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "the Lord"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "God",
+                                        reference: "R 11:35"
+                                    }
+                                ]
 
                             ]
                         }
@@ -1312,6 +2200,22 @@ var RomansJames = {
                                 "Therefore, I urge you, brothers and sisters, in view of God’s mercy, to offer your bodies as a living sacrifice, holy and pleasing to God - this is your true and proper worship. ",
                                 "Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is - his good, pleasing and perfect will. "
 
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "this",
+                                        antecedent: "the offering of your bodies as a living sacrifice, holy and pleasing to God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ]
+
                             ]
                         },
                         {
@@ -1324,6 +2228,28 @@ var RomansJames = {
                                 "We have different gifts, according to the grace given to each of us. If your gift is prophesying, then prophesy in accordance with your[a] faith; ",
                                 "if it is serving, then serve; if it is teaching, then teach; ",
                                 "if it is to encourage, then give encouragement; if it is giving, then give generously; if it is to lead,[b] do it diligently; if it is to show mercy, do it cheerfully. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "your gift",
+                                        reference: "R 12:6"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "your gift",
+                                        reference: "R 12:6"
+                                    }
+                                ]
 
                             ]
                         },
@@ -1344,6 +2270,36 @@ var RomansJames = {
                                 "Do not take revenge, my dear friends, but leave room for God’s wrath, for it is written: “It is mine to avenge; I will repay,”[d] says the Lord. ",
                                 "On the contrary: “If your enemy is hungry, feed him; if he is thirsty, give him something to drink. In doing this, you will heap burning coals on his head.”[e] ",
                                 "Do not be overcome by evil, but overcome evil with good. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "your enemy"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "your enemy"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "your enemy"
+                                    }
+                                ],
+                                []
 
                             ]
                         }
@@ -1374,6 +2330,37 @@ var RomansJames = {
                                 "This is also why you pay taxes, for the authorities are God’s servants, who give their full time to governing. ",
                                 "Give to everyone what you owe them: If you owe taxes, pay taxes; if revenue, then revenue; if respect, then respect; if honor, then honor. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "themselves",
+                                        antecedent: "those who rebel against the authority"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "They",
+                                        antecedent: "rulers"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the authorities"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them:",
+                                        antecedent: "everyone"
+                                    }
+                                ]
+
                             ]
                         },
                         {
@@ -1383,6 +2370,13 @@ var RomansJames = {
                                 "Let no debt remain outstanding, except the continuing debt to love one another, for whoever loves others has fulfilled the law. ",
                                 "The commandments, “You shall not commit adultery,” “You shall not murder,” “You shall not steal,” “You shall not covet,”[a] and whatever other command there may be, are summed up in this one command: “Love your neighbor as yourself.”[b] ",
                                 "Love does no harm to a neighbor. Therefore love is the fulfillment of the law. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                []
 
                             ]
                         },
@@ -1394,6 +2388,14 @@ var RomansJames = {
                                 "The night is nearly over; the day is almost here. So let us put aside the deeds of darkness and put on the armor of light. ",
                                 "Let us behave decently, as in the daytime, not in carousing and drunkenness, not in sexual immorality and debauchery, not in dissension and jealousy. ",
                                 "Rather, clothe yourselves with the Lord Jesus Christ, and do not think about how to gratify the desires of the flesh.[c]"
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                []
 
                             ]
                         }
@@ -1438,6 +2440,99 @@ var RomansJames = {
                                 "So whatever you believe about these things keep between yourself and God. Blessed is the one who does not condemn himself by what he approves. ",
                                 "But whoever has doubts is condemned if they eat, because their eating is not from faith; and everything that does not come from faith is sin.[c] ",
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "one person"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "the one who eats everything"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "servants"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "servants"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "servants"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "each of them"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "whoever eats meat"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Christ"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "your brother or sister"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "something that person regards as unclean"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "himself",
+                                        antecedent: "the one"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "the one"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "whoever has doubts"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "whoever has doubts"
+                                    }
+                                ]
+
                             ]
                         }
 
@@ -1471,6 +2566,62 @@ var RomansJames = {
                                 "And again, Isaiah says, “The Root of Jesse will spring up, one who will arise to rule over the nations; in him the Gentiles will hope.”[f] ",
                                 "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "our neighbors"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "our neighbors"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "himself",
+                                        antecedent: "Christ"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the endurance taught in the scriptures"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "him.",
+                                        antecedent: "the Lord"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "the Root of Jesse"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him,",
+                                        antecedent: "the God of hope"
+                                    }
+                                ]
+
                             ]
                         },
                         {
@@ -1486,6 +2637,30 @@ var RomansJames = {
                                 "It has always been my ambition to preach the gospel where Christ was not known, so that I would not be building on someone else’s foundation. ",
                                 "Rather, as it is written: “Those who were not told about him will see, and those who have not heard will understand.”[g] ",
                                 "This is why I have often been hindered from coming to you. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "some points"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "He",
+                                        antecedent: "God",
+                                        reference: "R 15:15"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
 
                             ]
                         },
@@ -1504,6 +2679,60 @@ var RomansJames = {
                                 "Pray that I may be kept safe from the unbelievers in Judea and that the contribution I take to Jerusalem may be favorably received by the Lord’s people there, ",
                                 "so that I may come to you with joy, by God’s will, and in your company be refreshed. ",
                                 "The God of peace be with you all. Amen. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "They",
+                                        antecedent: "Macedonia and Achaia",
+                                        reference: "R 15:26"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        occurrence: 1,
+                                        antecedent: "Macedonia and Achaia",
+                                        reference: "R 15:26"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        occurrence: 1,
+                                        antecedent: "the poor among the Lord's people in Jerusalem",
+                                        reference: "R 15:26"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        occurrence: 2,
+                                        antecedent: "the Gentiles"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        occurrence: 2,
+                                        antecedent: "the Jews",
+                                        reference: "R 15:26"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the Gentiles"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the poor among the Lord's people in Jerusalem",
+                                        reference: "R 15:26"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
 
                             ]
                         }
@@ -1556,6 +2785,117 @@ var RomansJames = {
                                 "but now revealed and made known through the prophetic writings by the command of the eternal God, so that all the Gentiles might come to the obedience that comes from[f] faith - ",
                                 "to the only wise God be glory forever through Jesus Christ! Amen. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "her",
+                                        antecedent: "our sister Phoebe",
+                                        reference: "R 16:1"
+                                    },
+                                    {
+                                        pronoun: "she",
+                                        antecedent: "our sister Phoebe",
+                                        reference: "R 16:1"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "They",
+                                        antecedent: "Priscilla and Aquila",
+                                        reference: "R 16:3"
+                                    },
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "Priscilla and Aquila",
+                                        reference: "R 16:3"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "Priscilla and Aquila",
+                                        reference: "R 16:3"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "They",
+                                        antecedent: "Andronicus and Junia"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "Andronicus and Junia"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Rufus"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "Asyncritus, Phlegon, Hermes, Patrobas, and Hermas"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "Philologus, Julia, Nereus and his sister, and Olympas"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "those who cause divisions and put obstacles in your way that are contrary to the teaching you have learned"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "such people"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "such people"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Timothy"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "Gaius"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "Eratus and our brother Quartus"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                []
+
                             ]
                         }
 
@@ -1589,6 +2929,11 @@ var RomansJames = {
 
                                 "James, a servant of God and of the Lord Jesus Christ, To the twelve tribes scattered among the nations: Greetings. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+
                             ]
                         },
                         {
@@ -1603,7 +2948,7 @@ var RomansJames = {
                                 "That person should not expect to receive anything from the Lord. ",
                                 "Such a person is double-minded and unstable in all they do. ",
                                 "Believers in humble circumstances ought to take pride in their high position. ",
-                                "But the rich should take pride in their humiliation-since they will pass away like a wild flower. ",
+                                "But the rich should take pride in their humiliation - since they will pass away like a wild flower. ",
                                 "For the sun rises with scorching heat and withers the plant; its blossom falls and its beauty is destroyed. In the same way, the rich will fade away even while they go about their business. ",
                                 "Blessed is the one who perseveres under trial because, having stood the test, that person will receive the crown of life that the Lord has promised to those who love him. ",
                                 "When tempted, no one should say, “God is tempting me.” For God cannot be tempted by evil, nor does he tempt anyone; ",
@@ -1612,6 +2957,110 @@ var RomansJames = {
                                 "Don’t be deceived, my dear brothers and sisters. ",
                                 "Every good and perfect gift is from above, coming down from the Father of the heavenly lights, who does not change like shifting shadows. ",
                                 "He chose to give us birth through the word of truth, that we might be a kind of firstfruits of all he created. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "its",
+                                        antecedent: "perseverance"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "wisdom"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "such a person"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "believers in humble circumstances"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the rich"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the rich"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "its",
+                                        antecedent: "the plant"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the rich"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "the rich"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "him.",
+                                        antecedent: "the Lord"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "each person"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "each person"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        occurrence: 1,
+                                        antecedent: "desire"
+                                    },
+                                    {
+                                        pronoun: "it",
+                                        occurrence: 2,
+                                        antecedent: "sin"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "He",
+                                        antecedent: "the Father of the heavenly lights",
+                                        reference: "J 1:17"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "the Father of the heavenly lights",
+                                        reference: "J 1:17"
+                                    }
+                                ]
 
                             ]
                         },
@@ -1625,9 +3074,73 @@ var RomansJames = {
                                 "Do not merely listen to the word, and so deceive yourselves. Do what it says. ",
                                 "Anyone who listens to the word but does not do what it says is like someone who looks at his face in a mirror ",
                                 "and, after looking at himself, goes away and immediately forgets what he looks like. ",
-                                "But whoever looks intently into the perfect law that gives freedom, and continues in it-not forgetting what they have heard, but doing it-they will be blessed in what they do. ",
+                                "But whoever looks intently into the perfect law that gives freedom, and continues in it - not forgetting what they have heard, but doing it - they will be blessed in what they do. ",
                                 "Those who consider themselves religious and yet do not keep a tight rein on their tongues deceive themselves, and their religion is worthless. ",
                                 "Religion that God our Father accepts as pure and faultless is this: to look after orphans and widows in their distress and to keep oneself from being polluted by the world. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the word"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the word"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "someone"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "himself",
+                                        antecedent: "someone",
+                                        reference: "J 1:23"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "someone",
+                                        reference: "J 1:23"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        occurrence: 1,
+                                        antecedent: "freedom"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "whoever looks intently into the perfect law that gives freedom, and continues in it"
+                                    },
+                                    {
+                                        pronoun: "it",
+                                        occurrence: 2,
+                                        antecedent: "what they have heard"
+                                    },
+                                ],
+                                [
+                                    {
+                                        pronoun: "themselves",
+                                        occurrence: 2,
+                                        antecedent: "Those who consider themselves religious and yet do not keep a tight rein on their tongues"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        occurrence: 2,
+                                        antecedent: "Those who consider themselves religious and yet do not keep a tight rein on their tongues"
+                                    }
+                                ],
+                                []
 
                             ]
                         }
@@ -1660,6 +3173,43 @@ var RomansJames = {
                                 "Speak and act as those who are going to be judged by the law that gives freedom, ",
                                 "because judgment without mercy will be shown to anyone who has not been merciful. Mercy triumphs over judgment. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    },
+                                    {
+                                        pronoun: "him?",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the rich"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the rich",
+                                        reference: "J 2:6"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
+
                             ]
                         },
                         {
@@ -1680,6 +3230,91 @@ var RomansJames = {
                                 "In the same way, was not even Rahab the prostitute considered righteous for what she did when she gave lodging to the spies and sent them off in a different direction? ",
                                 "As the body without the spirit is dead, so faith without deeds is dead. "
 
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "them?",
+                                        antecedent: "someone who claims to have faith but has no deeds"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "a brother or sister who is without clothes and daily food",
+                                        reference: "J 2:15"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "a brother or sister who is without clothes and daily food",
+                                        reference: "J 2:15"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "faith by itself"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "our father Abraham"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "our father Abraham"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "our father Abraham",
+                                        reference: "J 2:21"
+                                    },
+                                    {
+                                        pronoun: "his",
+                                        antecedent: "our father Abraham",
+                                        reference: "J 2:21"
+                                    }
+                                ]
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "Abraham's belief in God"
+                                    },
+                                    {
+                                        pronoun: "him",
+                                        antecedent: "Abraham"
+                                    },
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Abraham"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "a person"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "she",
+                                        antecedent: "Rahab the prostitute"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "the spies"
+                                    }
+                                ],
+                                []
+
                             ]
                         }
 
@@ -1693,7 +3328,7 @@ var RomansJames = {
                         e: "Gen. 15:6"
 
                     }
-        },
+                },
                 {
                     sections: [
 
@@ -1714,6 +3349,65 @@ var RomansJames = {
                                 "Can both fresh water and salt water flow from the same spring? ",
                                 "My brothers and sisters, can a fig tree bear olives, or a grapevine bear figs? Neither can a salt spring produce fresh water. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "anyone"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "anyone"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "horses"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "ships"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the tongue"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "It",
+                                        antecedent: "the tongue"
+                                    },
+                                    {
+                                        pronoun: "itself",
+                                        antecedent: "the tongue"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "It",
+                                        antecedent: "the tongue"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the tongue"
+                                    }
+                                ],
+                                [],
+                                [],
+                                []
+
                             ]
                         },
                         {
@@ -1727,6 +3421,29 @@ var RomansJames = {
                                 "But the wisdom that comes from heaven is first of all pure; then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere. ",
                                 "Peacemakers who sow in peace reap a harvest of righteousness. "
 
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "who is wise and understanding among you"
+                                    },
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "their wisdom and understanding"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "who is wise and understanding among you"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
+
                             ]
                         }
 
@@ -1736,7 +3453,7 @@ var RomansJames = {
                         //No footnotes for this chapter
 
                     }
-        },
+                },
                 {
                     sections: [
 
@@ -1757,6 +3474,63 @@ var RomansJames = {
                                 "Brothers and sisters, do not slander one another. Anyone who speaks against a brother or sister[d] or judges them speaks against the law and judges it. When you judge the law, you are not keeping it, but sitting in judgment on it. ",
                                 "There is only one Lawgiver and Judge, the one who is able to save and destroy. But you - who are you to judge your neighbor? ",
 
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "fights and quarrels among you"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "J 4:4"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God",
+                                        reference: "J 4:4"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "the devil"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "God"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "the Lord"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "a brother or sister"
+                                    },
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the law"
+                                    }
+                                ],
+                                []
+
                             ]
                         },
                         {
@@ -1768,6 +3542,28 @@ var RomansJames = {
                                 "Instead, you ought to say, “If it is the Lord’s will, we will live and do this or that.” ",
                                 "As it is, you boast in your arrogant schemes. All such boasting is evil. ",
                                 "If anyone, then, knows the good they ought to do and doesn’t do it, it is sin for them. "
+
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "anyone"
+                                    },
+                                    {
+                                        pronoun: "it",
+                                        antecedent: "the good they ought to do"
+                                    },
+                                    {
+                                        pronoun: "them.",
+                                        antecedent: "anyone"
+                                    }
+                                ]
 
                             ]
                         },
@@ -1781,7 +3577,7 @@ var RomansJames = {
                         d: "The Greek word for _brother or sister (adelphos)_ refers here to a believer, whether man or woman, as part of God’s family."
 
                     }
-        },
+                },
                 {
                     sections: [
 
@@ -1796,6 +3592,21 @@ var RomansJames = {
                                 "You have lived on earth in luxury and self-indulgence. You have fattened yourselves in the day of slaughter.[a] ",
                                 "You have condemned and murdered the innocent one, who was not opposing you. "
 
+                            ],
+                            pronounClarification: [
+
+                                [],
+                                [],
+                                [
+                                    {
+                                        pronoun: "Their",
+                                        antecedent: "your gold and silver"
+                                    }
+                                ],
+                                [],
+                                [],
+                                []
+
                             ]
                         },
                         {
@@ -1807,7 +3618,22 @@ var RomansJames = {
                                 "Don’t grumble against one another, brothers and sisters, or you will be judged. The Judge is standing at the door! ",
                                 "Brothers and sisters, as an example of patience in the face of suffering, take the prophets who spoke in the name of the Lord. ",
                                 "As you know, we count as blessed those who have persevered. You have heard of Job’s perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy. ",
-                                "Above all, my brothers and sisters, do not swear-not by heaven or by earth or by anything else. All you need to say is a simple “Yes” or “No.” Otherwise you will be condemned. "
+                                "Above all, my brothers and sisters, do not swear - not by heaven or by earth or by anything else. All you need to say is a simple “Yes” or “No.” Otherwise you will be condemned. "
+
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "its",
+                                        antecedent: "the land"
+                                    }
+                                ],
+                                [],
+                                [],
+                                [],
+                                [],
+                                []
 
                             ]
                         },
@@ -1823,6 +3649,63 @@ var RomansJames = {
                                 "Again he prayed, and the heavens gave rain, and the earth produced its crops. ",
                                 "My brothers and sisters, if one of you should wander from the truth and someone should bring that person back, ",
                                 "remember this: Whoever turns a sinner from the error of their way will save them from death and cover over a multitude of sins. "
+
+                            ],
+                            pronounClarification: [
+
+                                [
+                                    {
+                                        pronoun: "them",
+                                        occurrence: 1,
+                                        antecedent: "anyone among you who is in trouble"
+                                    },
+                                    {
+                                        pronoun: "them",
+                                        occurrence: 2,
+                                        antecedent: "anyone who is happy"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "anyone among you who is sick"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "the sick person"
+                                    },
+                                    {
+                                        pronoun: "they",
+                                        antecedent: "the sick person"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "He",
+                                        antecedent: "Elijah"
+                                    }
+                                ],
+                                [
+                                    {
+                                        pronoun: "he",
+                                        antecedent: "Elijah",
+                                        reference: "J 5:17"
+                                    }
+                                ],
+                                [],
+                                [
+                                    {
+                                        pronoun: "them",
+                                        antecedent: "a sinner"
+                                    },
+                                    {
+                                        pronoun: "their",
+                                        antecedent: "a sinner"
+                                    }
+                                ]
 
                             ]
                         }

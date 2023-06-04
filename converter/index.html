@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="actions">
+        <button class="importVerses button" onclick="importVerses()">Import Verses</button>
+        <button class="pronounClarifications button" onclick="showPronounClarificationEditor()">Pronoun Clarifications</button>
+        <button class="addFootnote button" onclick="addFootnote()">Add Footnote</button>
+        <div class="saveContainer">
+            <button class="save button" onclick="save()">Save</button>
+            <p class="lastSaved"></p>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <div class="package">
+            <p>Package</p>
+            <h3>None</h3>
+            <div class="create">
+                <button onclick="createPackage()">Create</button>
+            </div>
+            <div class="controls hidden">
+                <button onclick="editPackage()">Edit</button>
+            </div>
+        </div>
+        <div class="book">
+            <p>Book</p>
+            <h3>None</h3>
+            <div class="create hidden">
+                <button onclick="createBook()">Create</button>
+            </div>
+            <div class="controls hidden">
+                <button class="previous" onclick="previousBook()">&larr;</button>
+                <button class="next" onclick="nextBook()">&rarr;</button>
+                <button onclick="removeBook()">&minus;</button>
+                <button onclick="createBook()">&plus;</button>
+                <button onclick="editBook()">Edit</button>
+            </div>
+        </div>
+        <div class="chapter">
+            <p>Chapter</p>
+            <h3>None</h3>
+            <div class="create hidden">
+                <button class="createChapter button" onclick="createChapter()">Create</button>
+            </div>
+            <div class="controls hidden">
+                <button class="previous" onclick="previousChapter()">&larr;</button>
+                <button class="next" onclick="nextChapter()">&rarr;</button>
+                <button onclick="removeChapter()">&minus;</button>
+                <button onclick="createChapter()">&plus;</button>
+            </div>
+        </div>
+        <div class="section">
+            <p>Section</p>
+            <h3>None</h3>
+            <div class="create hidden">
+                <button class="createSection button" onclick="createSection()">Create</button>
+            </div>
+            <div class="controls hidden">
+                <button class="previous" onclick="previousSection()">&larr;</button>
+                <button class="next" onclick="nextSection()">&rarr;</button>
+                <button onclick="removeSection()">&minus;</button>
+                <button onclick="createSection()">&plus;</button>
+            </div>
+        </div>
+        <div class="verse">
+            <p>Verse</p>
+            <h3>None</h3>
+            <div class="create hidden">
+                <button class="createVerse button" onclick="createVerse()">Create</button>
+            </div>
+            <div class="controls hidden">
+                <button class="previous" onclick="previousVerse()">&larr;</button>
+                <button class="next" onclick="nextVerse()">&rarr;</button>
+                <button onclick="removeVerse()">&minus;</button>
+                <button onclick="createVerse()">&plus;</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="editor">
+        <div class="verseEditor">
+            <h3 class="reference"></h3>
+            <textarea name="verse" id="verse" cols="30" rows="10" placeholder="Verse content..." oninput="updateVerseContent()"></textarea>
+            <div class="footnotes"></div>
+        </div>
+        <div class="pronounClarificationEditor hidden">
+            <h3 class="reference"></h3>
+            <p class="verseContent"></p>
+            <div class="clarifications"></div>
+        </div>
+        <p class="noVerseSelected">No verse selected.</p>
+    </div>
+
+    <div class="antecedentSelection hidden">
+        <div class="verses"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

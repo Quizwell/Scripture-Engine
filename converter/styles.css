@@ -1,0 +1,213 @@
+:root {
+    --background-color: #ffffff;
+    --alternate-background-color: #eeeeee;
+    --foreground-color: #000000;
+    --alternate-foreground-color: #666666;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000000;
+        --alternate-background-color: #222222;
+        --foreground-color: #ffffff;
+        --alternate-foreground-color: #cccccc;
+    }
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+button {
+    border: none;
+    background: var(--alternate-background-color);
+    border-radius: 5pt;
+    padding: 5pt;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--background-color);
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+button.active {
+    background: #0096FF;
+    color: white;
+}
+
+.actions {
+    display: flex;
+    height: 40pt;
+    padding: 8pt;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saveContainer {
+    display: flex;
+    align-items: center;
+}
+
+.saveContainer p {
+    margin: 0 0 0 5pt;
+}
+
+.navigation {
+    height: 120pt;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: top;
+}
+
+.navigation > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2pt;
+}
+
+.navigation > div .controls {
+    width: 50pt;
+    margin-top: 2pt;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2pt;
+}
+
+.navigation>div .controls :only-child,
+.navigation>div .controls :nth-child(5) {
+    grid-column: 1 / span 2;
+}
+
+.editor {
+    display: flex;
+    height: calc(100vh - 160pt);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5pt;
+}
+
+.editor textarea {
+    resize: none;
+    width: 95vw;
+    height: 56px;
+    font-family: inherit;
+    font-size: 20pt;
+    border: none;
+}
+
+.editor textarea:focus {
+    outline: none;
+}
+
+.editor p.verseContent {
+    width: 95vw;
+    font-size: 20pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2pt;
+}
+
+.editor p.verseContent span {
+    cursor: pointer;
+    padding: 2pt;
+    border-radius: 5pt;
+    transition: background 0.2s ease;
+}
+
+.editor p.verseContent span.highlighted {
+    background: #0096FF;
+    color: white;
+}
+
+.editor p.verseContent span:hover {
+    background: var(--alternate-background-color);
+}
+
+.editor .clarifications {
+    padding-top: 20pt;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10pt;
+}
+
+.editor .clarifications div {
+    min-width: 120pt;
+    display: flex;
+    flex-direction: column;
+    gap: 5pt;
+    background: var(--alternate-background-color);
+    padding: 10pt;
+    border-radius: 5pt;
+}
+
+.editor .clarifications div button {
+    background: var(--background-color);
+}
+
+.editor .clarifications div button:hover {
+    background: var(--alternate-background-color);
+}
+
+.antecedentSelection {
+    background: var(--background-color);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.antecedentSelection .verses {
+    display: flex;
+    flex-direction: column;
+    gap: 5pt;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.antecedentSelection .verses div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.antecedentSelection .verses div.currentVerse {
+    background: var(--alternate-background-color);
+}
+
+.antecedentSelection .verses div span {
+    cursor: pointer;
+    padding: 2pt 3pt;
+    border-radius: 5pt;
+    transition: background 0.2s ease;
+}
+
+.antecedentSelection .verses div span:not(.currentPronoun):hover {
+    background: var(--alternate-background-color);
+}
+
+.antecedentSelection .verses div span.currentPronoun {
+    background: #0096FF;
+    color: white;
+}

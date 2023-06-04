@@ -1,0 +1,67 @@
+{
+	"cycleYearName": "Corinthians",
+	"books": [
+		{
+			"name": "1 Corinthians",
+			"id": "1Cor",
+			"chapters": [
+				{
+					"number": 1,
+					"sections": [
+						{
+							"name": "Section Name",
+							"verses": [
+								{
+									"text": "Verse text",
+									"pronounClarifications": [
+										{
+											"pronoun": "he",
+											"antecedent": "John",
+											"reference": "1Cor 1:8",
+											"wordIndex": 2
+										},
+										{
+											"pronoun": "it",
+											"antecedent": "the city",
+											"wordIndex": 5
+										}
+									]
+								},
+								{
+									"text": "Verse text",
+									"footnotes": [
+										{
+											"letter": "a",
+											"text": "Footnote text"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Another Section Name",
+							"verses": [
+								{
+									"text": "Verse text",
+									"pronounClarifications": [
+										{
+											"pronoun": "they",
+											"antecedent": "the disciples",
+											"antecedentVerse": "2Cor 3:4",
+											"wordIndex": 3
+										},
+										{
+											"pronoun": "they",
+											"antecedent": "the Pharisees",
+											"wordIndex": 6
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -4,18 +4,18 @@ import json
 
 # Get the input from input.txt
 with open('input.txt', 'r') as f:
-    input = f.read()
+    input_text = f.read()
 
-# Create a regular expression for "[#] ", where # is a number
-regex = re.compile(r'\[\d+\] ')
+# Create a regular expression for "# ", where # is a number
+regex = re.compile(r'\d+ ')
 
 # Split the string at every occurence of the regular expression
-input = regex.split(input)
+split_text = regex.split(input_text)
 
-# Replace any \ unicode quotation marks with smart start and end quotes
-input = [i.replace('\u201c', '“').replace('\u201d', '”') for i in input]
-input = [i.replace('\u2018', '‘').replace('\u2019', '’') for i in input]
+# Remove the empty string at the start of the list
+if split_text[0] == '':
+    split_text = split_text[1:]
 
 # Output the result to output.json as a JSON array
 with open('output.json', 'w') as f:
-    json.dump(input, f)
+    json.dump(split_text, f, ensure_ascii=False)

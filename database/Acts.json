@@ -1,0 +1,48 @@
+{
+	"cycleYearName": "Acts",
+	"books": [
+		{
+			"name": "Acts",
+			"shortName": "Acts",
+			"abbreviation": "A",
+			"id": "acts",
+			"chapters": [
+				{
+					"number": 1,
+					"sections": [
+						{
+							"name": "Jesus Taken Up Into Heaven",
+							"verses": [
+								{
+									"text": "Verse text",
+									"pronounClarifications": [
+										{
+											"pronoun": "he",
+											"antecedent": "John",
+											"reference": "1Cor 1:8",
+											"wordIndex": 2
+										},
+										{
+											"pronoun": "it",
+											"antecedent": "the city",
+											"wordIndex": 5
+										}
+									]
+								},
+								{
+									"text": "Verse text",
+									"footnotes": [
+										{
+											"letter": "a",
+											"text": "Footnote text"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

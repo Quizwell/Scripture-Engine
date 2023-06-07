@@ -379,6 +379,15 @@ function showVerseEditor() {
 			var footnote = footnotes[i];
 			var footnoteElement = document.createElement("div");
 			footnoteElement.classList.add("footnote");
+			(function (letter) {
+				footnoteElement.onclick = function () {
+					editFootnote(letter);
+				};
+				footnoteElement.oncontextmenu = function (e) {
+					e.preventDefault();
+					deleteFootnote(letter);
+				};
+			})(footnote.letter);
 			footnoteElement.innerHTML = "<span class='letter'>" + footnote.letter + "</span> " + footnote.text;
 			document.querySelector(".verseEditor .footnotes").appendChild(footnoteElement);
 		}
@@ -477,8 +486,22 @@ function hidePronounClarificationEditor() {
 	}
 }
 
+var recentAntecedents = [];
 function showAntecedentSelection(pronoun, pronounWordIndex) {
 	show(".antecedentSelection");
+
+	// Populate the .recents div with the recent antecedent selections for quick access
+	var recentsElement = document.querySelector(".antecedentSelection .recents");
+	recentsElement.innerHTML = "";
+	recentAntecedents.forEach(function (item, index) {
+		var element = document.createElement("div");
+		element.textContent = item.antecedent;
+		element.addEventListener("click", function () {
+			hideAntecedentSelection();
+			createPronounClarification(pronoun, pronounWordIndex, item.antecedent, item.antecedentWordIndex, item.antecedentReference);
+		});
+		recentsElement.appendChild(element);
+	});
 
 	// Populate the .verses div with all the verses from the current chapter.
 	var versesElement = document.querySelector(".antecedentSelection .verses");
@@ -519,8 +542,122 @@ function showAntecedentSelection(pronoun, pronounWordIndex) {
 				var antecedentVerseNumber = Array.from(event.target.parentNode.parentNode.parentNode.children).indexOf(event.target.parentNode.parentNode) + 1;
 				antecedentReference = data.books[bookIndex].abbreviation + " " + data.books[bookIndex].chapters[chapterIndex].number + ":" + antecedentVerseNumber;
 			}
+
+			// Add the antecedent to the recent antecedents array
+			var recentObject = {
+				antecedent: antecedent,
+				antecedentWordIndex: antecedentWordIndex,
+				antecedentReference: antecedentReference,
+			};
+			// If the antecedent is already in the array, remove it
+			var index = recentAntecedents.findIndex(function (item) {
+				return item.antecedent === antecedent && item.antecedentWordIndex === antecedentWordIndex && item.antecedentReference === antecedentReference;
+			});
+			if (index !== -1) {
+				recentAntecedents.splice(index, 1);
+			}
+			// Add the antecedent to the beginning of the array
+			recentAntecedents.unshift(recentObject);
+
 			hideAntecedentSelection();
 			createPronounClarification(pronoun, pronounWordIndex, antecedent, antecedentWordIndex, antecedentReference);
+		}
+	};
+
+	// Add mouse down and up event listeners to the verse container to allow for
+	// multi-word antecedent selection, with a mouse down on one span and a
+	// mouse up on another.
+	var isSelecting = false;
+	versesElement.onmousedown = function (event) {
+		if (event.target.tagName === "SPAN") {
+			event.target.classList.add("antecedentSelectionStart");
+			isSelecting = true;
+		}
+	};
+	// On mouse move, update the current target with the class "antecedentSelectionEnd"
+	versesElement.onmousemove = function (event) {
+		if (isSelecting && event.target.tagName === "SPAN") {
+			var selectionStart = versesElement.querySelector(".antecedentSelectionStart");
+			var selectionEnd = event.target;
+			if (selectionEnd === selectionStart) {
+				return;
+			}
+			// If the selection is backwards, swap the start and end
+			if (Array.from(selectionStart.parentNode.children).indexOf(selectionStart) > Array.from(selectionEnd.parentNode.children).indexOf(selectionEnd)) {
+				var temp = selectionStart;
+				selectionStart = selectionEnd;
+				selectionEnd = temp;
+			}
+			// Remove the class from the previous span
+			if (document.querySelector(".antecedentSelectionEnd")) {
+				document.querySelector(".antecedentSelectionEnd").classList.remove("antecedentSelectionEnd");
+			}
+			// Add the class to the new target
+			selectionEnd.classList.add("antecedentSelectionEnd");
+		}
+	};
+	versesElement.onmouseup = function (event) {
+		if (event.target.tagName === "SPAN") {
+			var selectionStart = versesElement.querySelector(".antecedentSelectionStart");
+			var selectionEnd = event.target;
+			if (selectionEnd === selectionStart) {
+				isSelecting = false;
+				return;
+			}
+			// If the selection is backwards, swap the start and end
+			if (Array.from(selectionStart.parentNode.children).indexOf(selectionStart) > Array.from(selectionEnd.parentNode.children).indexOf(selectionEnd)) {
+				var temp = selectionStart;
+				selectionStart = selectionEnd;
+				selectionEnd = temp;
+			}
+			// Get the antecedent from the selection
+			var antecedent = "";
+			var antecedentWordIndex = undefined;
+			var antecedentReference = undefined;
+
+			var currentVerse = data.books[bookIndex].chapters[chapterIndex].sections[sectionIndex].verses[verseIndex];
+			var currentVerseElement = versesElement.querySelector(`div:nth-child(${verseNumber})`);
+
+			var targetVerseElement = selectionStart.parentNode;
+			var targetVerseWords = targetVerseElement.querySelectorAll("span");
+
+			var selectionStartIndex = Array.from(targetVerseWords).indexOf(selectionStart);
+			antecedentWordIndex = selectionStartIndex;
+			var selectionEndIndex = Array.from(targetVerseWords).indexOf(selectionEnd);
+			for (var i = selectionStartIndex; i <= selectionEndIndex; i++) {
+				antecedent += targetVerseWords[i].textContent + " ";
+			}
+			antecedent = antecedent.trim();
+
+			// If the antecedent is from a different verse, store the reference in the format "bookAbbreviation chapterNumber:verseNumber"
+			if (selectionStart.parentNode.parentNode !== currentVerseElement) {
+				var antecedentVerseNumber = Array.from(selectionStart.parentNode.parentNode.children).indexOf(selectionStart.parentNode) + 1;
+				antecedentReference = data.books[bookIndex].abbreviation + " " + data.books[bookIndex].chapters[chapterIndex].number + ":" + antecedentVerseNumber;
+			}
+
+			// Add the antecedent to the recent antecedents array
+			var recentObject = {
+				antecedent: antecedent,
+				antecedentWordIndex: antecedentWordIndex,
+				antecedentReference: antecedentReference,
+			};
+			// If the antecedent is already in the array, remove it
+			var index = recentAntecedents.findIndex(function (item) {
+				return item.antecedent === antecedent && item.antecedentWordIndex === antecedentWordIndex && item.antecedentReference === antecedentReference;
+			});
+			if (index !== -1) {
+				recentAntecedents.splice(index, 1);
+			}
+			// Add the antecedent to the beginning of the array
+			recentAntecedents.unshift(recentObject);
+
+			hideAntecedentSelection();
+			createPronounClarification(pronoun, pronounWordIndex, antecedent, antecedentWordIndex, antecedentReference);
+			isSelecting = false;
+		} else {
+			document.querySelector(".antecedentSelectionStart").classList.remove("antecedentSelectionStart");
+			document.querySelector(".antecedentSelectionEnd").classList.remove("antecedentSelectionEnd");
+			isSelecting = false;
 		}
 	};
 }
@@ -596,7 +733,13 @@ function createPronounClarificationElement(pronoun, pronounWordIndex, antecedent
 
 function addFootnote() {
 	var footnoteLetter = prompt("Footnote letter:");
+	if (!footnoteLetter) {
+		return;
+	}
 	var footnoteText = prompt("Footnote text:");
+	if (!footnoteText) {
+		return;
+	}
 	var footnote = {
 		letter: footnoteLetter,
 		text: footnoteText,
@@ -606,6 +749,36 @@ function addFootnote() {
 	}
 	data.books[bookIndex].chapters[chapterIndex].sections[sectionIndex].verses[verseIndex].footnotes.push(footnote);
 	render();
+}
+
+function editFootnote(letter) {
+	var footnote = data.books[bookIndex].chapters[chapterIndex].sections[sectionIndex].verses[verseIndex].footnotes.find(function (item) {
+		return item.letter === letter;
+	});
+	var newLetter = prompt("Footnote letter:", footnote.letter);
+	if (!newLetter) {
+		return;
+	}
+	var newText = prompt("Footnote text:", footnote.text);
+	if (!newText) {
+		return;
+	}
+	footnote.letter = newLetter;
+	footnote.text = newText;
+	render();
+	showVerseEditor();
+}
+
+function deleteFootnote(letter) {
+	if (!confirm("Are you sure you want to delete this footnote?")) {
+		return;
+	}
+	var index = data.books[bookIndex].chapters[chapterIndex].sections[sectionIndex].verses[verseIndex].footnotes.findIndex(function (item) {
+		return item.letter === letter;
+	});
+	data.books[bookIndex].chapters[chapterIndex].sections[sectionIndex].verses[verseIndex].footnotes.splice(index, 1);
+	render();
+	showVerseEditor();
 }
 
 function hide() {
